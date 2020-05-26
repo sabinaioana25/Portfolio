@@ -5,7 +5,7 @@
         "main main main"
         "footer footer footer";
         overflow-x: hidden;
-        overflow-y: hidden;
+        /* overflow-y: hidden; */
     }
 
     nav ul {
@@ -104,5 +104,11 @@
 @media screen and (max-width:1024px) {
     nav {
        width: 60%;
+    }
+    
+    body {
+        overflow-x: hidden;
+        overflow-y: scroll;
+
     }
 }
