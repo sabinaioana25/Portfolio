@@ -1,0 +1,322 @@
+/* mobile screen */
+@media screen and (max-width: 599px) {
+  
+    /* navigation bar - mobile screen */
+    /* body {
+        grid-template-areas: 
+        "nav"
+        "main"
+        "footer";
+        width: 100%;
+        height: auto;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 100px 40%;
+    } */
+/* 
+    .menu {
+        display: flex;
+        flex-wrap: wrap ;
+        margin-left: auto;
+    }
+
+    nav {
+        grid-area: nav;
+        background:navy;
+        width: 100%;
+        height: auto;
+        padding: 5px 20px;    
+    }
+
+    .toggle {
+        cursor: pointer;
+        bottom: 0;
+    }
+    
+    .bars {
+        background: black;
+        display: inline-block;
+        height: 6px;
+        width: 48px; 
+        position: relative;
+        margin-top: 2rem;
+        margin-right: 2rem;
+    }
+
+    .bars::before, .bars::after {
+        background: #000;
+        content: "";
+        display: inline-block;
+        height: 6px; 
+        width: 48px;
+        position: absolute;
+    }
+
+    .bars::before {
+        transform: translateY(20px);
+    }
+
+    .bars::after {
+        transform: translateY(-20px);
+    } */
+
+    /* main content detail page */
+    main {
+        background-color: lightgreen;
+        width: 100%;
+        grid-area: main;
+    }
+    .inner {
+        margin: auto auto;
+        position: relative;
+    }
+
+    .inner img {
+        width: 100%;
+    }
+
+    /* footer section */
+
+    .footer {
+        height: 200px;
+    }
+
+    .footer-text >p {
+        width: 200px;
+        line-break: loose;
+    }
+
+    .icon:first-child {
+        background-image: url("D:/Programming/Website/images/Icons/Linkedin.svg");
+        width: 50px;
+        height: 50px;
+        background-repeat: no-repeat;
+    }
+
+    .icon:nth-child(2) {
+        background-image: url("D:/Programming/Website/images/Icons/Github.svg");
+        width: 50px;
+        height: 50px;
+        background-repeat: no-repeat;
+    }
+
+    .icon:nth-child(3) {
+        background-image: url("D:/Programming/Website/images/Icons/Gmail.svg");
+        width: 50px;
+        height: 50px;
+        background-repeat: no-repeat;
+    }
+
+    .icon:last-child {
+        background-image: url("D:/Programming/Website/images/Icons/Instagram.svg");
+        width: 50px;
+        height: 50px;
+        background-repeat: no-repeat;
+    }
+}
+
+
+/* tablet-portrait */
+ @media all and (min-width: 600px) {
+
+    body {
+        grid-template-rows: 25% 100px auto;
+    }
+    
+    /* navigation bar tablet screen */
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .logo-image {
+        flex: 1;
+        align-self: flex-start;
+        justify-items: left;
+        margin-left: 25%;
+    }
+
+    .toggle {
+        cursor: pointer;
+        bottom: 0;
+    }
+    
+    .bars {
+        background: black;
+        display: inline-block;
+        height: 6px;
+        width: 48px; 
+        position: relative;
+        margin-top: 2rem;
+        margin-right: 2rem;
+    }
+
+    .bars::before, .bars::after {
+        background: #000;
+        content: "";
+        display: inline-block;
+        height: 6px; 
+        width: 48px;
+        position: absolute;
+    }
+
+    .bars::before {
+        transform: translateY(20px);
+    }
+
+    .bars::after {
+        transform: translateY(-20px);
+    }
+
+    .inner img {
+        width: 100%;
+    }
+
+    .heading h1, .heading h4 {
+        padding: 1em 0;
+        width: 100%;
+    }
+
+    .inner >h2, .inner>p {
+        padding: 1em 0;
+        width: 100%;
+        justify-content: stretch;
+    }
+
+    .footer-text >p {
+        width: 350px;
+        justify-content: space-evenly;
+    }
+
+    .icon {
+        width: 200px;
+    }
+} 
+
+/* tablet-landscape */
+@media all and (min-width: 992px) and (max-width: 1365px) {
+    .inner img {
+        width: 100%;
+    }
+
+    .social-icon {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 35%;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* desktop */
+ @media all and (min-width: 1366px) {
+    
+    body {
+        display: grid;
+        grid-template-columns: 15% 70% 15%;
+        grid-template-rows: auto;
+        grid-template-areas: 
+          "nav nav nav"
+          ". main . "
+          "footer footer footer";
+      }
+    
+      /* navigation bar  */
+    nav {
+        grid-area: nav;
+    }
+
+    .toggle {
+        opacity: 0;
+    }
+
+    .logo-image {
+        margin: auto 0;
+        margin-left: 25%;   
+    }
+
+    .item {
+        display: flex;
+        flex-direction: row;
+        order: 2; 
+        flex-wrap: wrap;
+        margin: auto 0; 
+        margin-right: 5%;
+        border: 1px solid yellow;
+        width: auto;
+        justify-self: flex-end;
+        text-align: center;
+
+    } 
+
+    /* main content */
+
+    .inner {
+        position: relative;
+        width: fit-content;
+        max-width: 90%;
+        margin: 1em auto;
+        padding: 1em;
+    }
+
+    .inner img {
+        width: 100vw;
+    }
+
+    .inner >h2, .inner>p {
+        padding: 1rem 0;
+        width: 100%;
+    }
+
+    /* footer section */
+
+    footer {
+        height: 283px;
+    }
+
+    hr {
+        border: 0;
+        height: 1px;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .social-icon {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 35%;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .icon:first-child {
+        background-image: url("D:/Programming/Website/images/Icons/Linkedin.svg");
+        width: 50px;
+        height: 50px;
+        background-repeat: no-repeat;
+    }
+
+    .icon:nth-child(2) {
+        background-image: url("D:/Programming/Website/images/Icons/Github.svg");
+        width: 50px;
+        height: 50px;
+        background-repeat: no-repeat;
+    }
+
+    .icon:nth-child(3) {
+        background-image: url("D:/Programming/Website/images/Icons/Gmail.svg");
+        width: 50px;
+        height: 50px;
+        background-repeat: no-repeat;
+    }
+
+    .icon:last-child {
+        background-image: url("D:/Programming/Website/images/Icons/Instagram.svg");
+        width: 50px;
+        height: 50px;
+        background-repeat: no-repeat;
+    }
+} 

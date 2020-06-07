@@ -1,0 +1,72 @@
+/*  landing page */
+main {
+    grid-area: main;
+    /* background-color: thistle; */
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+
+.intro-header {
+    margin-bottom: 16%;
+}
+
+.intro-header h1 {
+    width: 50%;
+    margin-top: 0;
+}
+
+.intro-header h3 {
+    width: 65%;
+}
+
+.thumb-project-details {
+    margin-bottom: 4rem;
+}
+
+/* project detail page */
+.detail-main-header {
+    width: 100%;
+    text-align: center;
+    margin-top: -2rem;
+    margin-bottom: 2.5rem;
+}
+
+.detail-main-header .short {
+    margin: 0 auto 0.1rem auto;
+}
+
+.project-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.nav-text:hover {
+    opacity: 40%;
+  }
+
+/* about me page */
+main {
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+
+.button-wrapper {
+    width: fit-content;
+    margin: 3rem auto 0.5rem auto;
+    padding: 0.75rem 3rem;
+    border: none;
+    border-radius: 3rem;
+    background-color: lightsteelblue;
+    box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+
+.button-wrapper:hover {
+    box-shadow: 0rem 0.75rem 2rem rgba(7, 31, 21, 0.4);
+    transform: translateY(-0.5rem);
+}

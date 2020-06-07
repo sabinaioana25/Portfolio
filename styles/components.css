@@ -1,0 +1,10 @@
+body {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    "nav"
+    "main"
+    "footer";
+}

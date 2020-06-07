@@ -1,0 +1,50 @@
+.navbar {
+    padding-bottom: 0.5rem;
+}
+
+.menu {
+    display: none;
+}
+
+.menu li {
+    margin: 0.5rem ;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    opacity: 40%;
+}
+
+.logo-image {
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-top: 0.75rem;
+    margin-left: 1rem;
+}
+
+/* toggle button */
+.navbar-toggle {
+    position: absolute;
+    top: 0.6rem;
+    right: 1.4rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+/* navbar menu active */
+.active {
+    display: flex;
+    flex-direction: column;
+    margin:0 auto ;
+    padding: 0;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: #F3F3F3;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}

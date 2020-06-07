@@ -1,0 +1,33 @@
+footer {
+    grid-area: footer;
+}
+
+footer hr {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: #F3F3F3;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-paragraph {
+    width: 50%;
+    margin: 0 auto;
+} 
+
+.social-media-ic {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.social-icon:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
