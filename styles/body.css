@@ -1,72 +1,85 @@
 /*  landing page */
-main {
+.index-main {
     grid-area: main;
-    /* background-color: thistle; */
     width: 100%;
     height: auto;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .intro-header {
-    margin-bottom: 16%;
+    width: 100%;
+    padding: 0 1rem 2rem 1rem;
+    text-align: left;
 }
 
 .intro-header h1 {
-    width: 50%;
-    margin-top: 0;
-}
+    width: 75%;
+    margin: 0 0 0 0;
+} 
 
 .intro-header h3 {
-    width: 65%;
+    width: 100%;
 }
 
-.thumb-project-details {
-    margin-bottom: 4rem;
+.thumb-project-details  {
+    margin: 1rem 0 3rem 0;
+}
+
+.thumb-project-details .name {
+   margin: 1rem 0 1rem 0;
+}
+
+.thumb-project-details .short {
+    margin-bottom: 1rem;
 }
 
 /* project detail page */
-.detail-main-header {
-    width: 100%;
-    text-align: center;
-    margin-top: -2rem;
-    margin-bottom: 2.5rem;
+.detail-main {
+    margin: 0 auto;
 }
 
-.detail-main-header .short {
-    margin: 0 auto 0.1rem auto;
+.detail-header {
+    width: 100%;
+    margin: 1rem 0 0 0;
+    text-align: center;
+}
+
+.detail-header .name {
+    margin: 0 1rem 0 1rem;
+}
+
+.detail-header .short-detail-lang {
+    margin: 0 1rem 0 1rem;
+}
+
+.detail-wrapper {
+    margin: 2rem 2rem 1rem 2rem;
+}
+
+.detail-wrapper .thumb-project {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding-bottom: 0rem;
+}
+
+.detail-wrapper .short-detail {
+    margin: 0.5rem 0 1rem 0;
 }
 
 .project-controls {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
-    margin-top: 4rem;
+    margin: 4rem 2rem 3rem 2rem;
 }
 
-.nav-text:hover {
+.nav-text:hover, .nav-text-prev:hover, .nav-text-next:hover {
+    cursor: pointer;
     opacity: 40%;
   }
 
 /* about me page */
-main {
-    margin-top: 2rem;
-    padding-top: 2rem;
-}
-
-.button-wrapper {
-    width: fit-content;
-    margin: 3rem auto 0.5rem auto;
-    padding: 0.75rem 3rem;
-    border: none;
-    border-radius: 3rem;
-    background-color: lightsteelblue;
-    box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-    outline: none;
-}
-
-.button-wrapper:hover {
-    box-shadow: 0rem 0.75rem 2rem rgba(7, 31, 21, 0.4);
-    transform: translateY(-0.5rem);
+.about-main {
+    margin: 0 2rem 1rem 2rem;
 }

@@ -2,7 +2,14 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'open sans', sans-serif;
+    font-family: 'libre franklin', sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 li {

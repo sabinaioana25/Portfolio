@@ -1,7 +1,7 @@
 /* header */
 .logo-image {
-    width: 4em;
-    height: 3em;
+    width: 4rem;
+    height: 4rem;
     background-image: url("D:/Programming/Website/images/Logo/logo.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -12,7 +12,22 @@
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
-    margin: 0 auto;
+}
+
+.detail-wrapper > img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    background-repeat: no-repeat;
+}
+
+.image-about {
+    display: block;
+    margin: 2rem auto 1rem auto;
+    width: 100%;
 }
 
 /* footer social icons */

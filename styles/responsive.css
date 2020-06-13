@@ -1,322 +1,339 @@
-/* mobile screen */
-@media screen and (max-width: 599px) {
-  
-    /* navigation bar - mobile screen */
-    /* body {
-        grid-template-areas: 
-        "nav"
-        "main"
-        "footer";
-        width: 100%;
-        height: auto;
-        grid-template-columns: 100%;
-        grid-template-rows: 25% 100px 40%;
-    } */
-/* 
+/* tablet - portrait */
+@media screen and (max-width: 30rem)  {
+    /* body css  */
+}
+
+@media screen and (min-width: 36.25rem) and (max-width: 49.81rem) {
+    /* header */
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+    }
+
+    .navbar-toggle, .menu hr {
+        display: none;
+    }
+
     .menu {
         display: flex;
-        flex-wrap: wrap ;
-        margin-left: auto;
-    }
-
-    nav {
-        grid-area: nav;
-        background:navy;
         width: 100%;
-        height: auto;
-        padding: 5px 20px;    
+        justify-content: flex-end;
+        margin: 2rem 1rem 0 1rem;
     }
 
-    .toggle {
-        cursor: pointer;
-        bottom: 0;
+    .menu li {
+        margin: 1.2rem 2rem 0 1rem;
+    }
+
+    .intro-header {
+        margin: 0 1rem 0 1rem;
+    }
+
+    .intro-header h1, .intro-header h3  {
+        width: 80%;
+    }
+
+    .thumb-project-details {
+        display: grid;
+        width: auto;
+        grid-template-columns: 40% 60%;
+        margin: 1rem 0 2rem 0;
+        grid-template-areas: 
+        "name short"
+        " . link";
+    }
+
+    .thumb-project-details .name {
+        grid-area: name;
+        width: 90%;
+        margin: 0 0 1rem 0;
+        line-height: 2rem;
     }
     
-    .bars {
-        background: black;
-        display: inline-block;
-        height: 6px;
-        width: 48px; 
-        position: relative;
-        margin-top: 2rem;
-        margin-right: 2rem;
+    .thumb-project-details .short {
+        grid-area: short;
+        height: fit-content;
+        margin: 0 0 1rem 0;
+        padding-top: 0.5rem;
     }
 
-    .bars::before, .bars::after {
-        background: #000;
-        content: "";
-        display: inline-block;
-        height: 6px; 
-        width: 48px;
-        position: absolute;
+    .thumb-project-details .link {
+        grid-area: link;
+        height: 100%;
+        justify-content: flex-start;
     }
 
-    .bars::before {
-        transform: translateY(20px);
+    /* detail page content */
+    .detail-main {
+        grid-area: main;
+        margin: auto auto 1rem auto;
     }
 
-    .bars::after {
-        transform: translateY(-20px);
-    } */
+    .detail-header {
+        text-align: left;
+        margin: 1rem 2rem 3rem 2rem;
+    }
 
-    /* main content detail page */
-    main {
-        background-color: lightgreen;
-        width: 100%;
+    .detail-header .name {
+        margin: 0 0 0.2rem 0;
+        max-width: 32rem;
+        text-align: left;
+    }
+
+    .detail-header .short-detail-lang {
+        margin: 0 0 5% 0;
+        width: fit-content;
+    }
+
+    .project-controls {
+        justify-content: space-between;
+    }
+
+    .project-controls a {
+        margin-left: 2rem;
+    }
+
+    /* about me page content */
+    .about-main {
         grid-area: main;
     }
-    .inner {
-        margin: auto auto;
-        position: relative;
-    }
 
-    .inner img {
-        width: 100%;
-    }
-
-    /* footer section */
-
-    .footer {
-        height: 200px;
-    }
-
-    .footer-text >p {
-        width: 200px;
-        line-break: loose;
-    }
-
-    .icon:first-child {
-        background-image: url("D:/Programming/Website/images/Icons/Linkedin.svg");
-        width: 50px;
-        height: 50px;
-        background-repeat: no-repeat;
-    }
-
-    .icon:nth-child(2) {
-        background-image: url("D:/Programming/Website/images/Icons/Github.svg");
-        width: 50px;
-        height: 50px;
-        background-repeat: no-repeat;
-    }
-
-    .icon:nth-child(3) {
-        background-image: url("D:/Programming/Website/images/Icons/Gmail.svg");
-        width: 50px;
-        height: 50px;
-        background-repeat: no-repeat;
-    }
-
-    .icon:last-child {
-        background-image: url("D:/Programming/Website/images/Icons/Instagram.svg");
-        width: 50px;
-        height: 50px;
-        background-repeat: no-repeat;
+    .short-about {
+        margin: 0;
     }
 }
 
-
-/* tablet-portrait */
- @media all and (min-width: 600px) {
-
+@media screen and (min-width: 49.8rem) and (max-width: 67.4rem) {
+    /* header  */
     body {
-        grid-template-rows: 25% 100px auto;
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-gap: 1rem;
+        grid-template-columns: auto 49.75rem auto;
+        grid-template-areas: 
+        " . nav . "
+        " . main . "
+        " . footer . ";
     }
-    
-    /* navigation bar tablet screen */
+
+    .navbar {
+        grid-area: nav;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+    }
+
     .menu {
         display: flex;
+        width: 100%;
         justify-content: flex-end;
+        margin-top: 2rem;
     }
 
-    .logo-image {
-        flex: 1;
-        align-self: flex-start;
-        justify-items: left;
-        margin-left: 25%;
+    .menu li {
+        margin: 1.2rem 2rem 0 0;
     }
 
-    .toggle {
-        cursor: pointer;
-        bottom: 0;
+    .navbar-toggle, .menu hr {
+        display: none;
+    }
+
+    /* main page content */
+    .intro-header {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .intro-header h3  {
+        width: 70%;
+    }
+
+    .thumb-project img {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .thumb-project-details {
+        display: grid;
+        width: auto;
+        grid-template-columns: 40% 60%;
+        margin: 0.5rem 1rem 3rem 1rem;
+        grid-template-areas: 
+        "name short"
+        " . link";
+    }
+
+    .thumb-project-details .name {
+        grid-area: name;
+        width: 90%;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        line-height: 2rem;
     }
     
-    .bars {
-        background: black;
-        display: inline-block;
-        height: 6px;
-        width: 48px; 
-        position: relative;
-        margin-top: 2rem;
+    .thumb-project-details .short {
+        grid-area: short;
+        height: fit-content;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        padding-top: 0.5rem;
+    }
+
+    .thumb-project-details .link {
+        grid-area: link;
+        height: 100%;
+        justify-content: flex-start;
+    }
+
+    /* detail page content */
+    .detail-main {
+        grid-area: main;
+    }
+
+    .detail-header {
+        width: fit-content;
+        margin: 1rem 0 3rem 2rem;
+    }
+
+    .detail-header .name {
+        margin-bottom: 0.2rem;
+        margin-left: 0;
+        max-width: 32rem;
+        text-align: left;
+    }  
+
+    .detail-header .short-detail-lang {
+        margin-bottom: 5%;
+        margin-left: 0;
+        width: fit-content;
+    }
+
+    .detail-wrapper {
+        margin-left: 2rem;
         margin-right: 2rem;
     }
 
-    .bars::before, .bars::after {
-        background: #000;
-        content: "";
-        display: inline-block;
-        height: 6px; 
-        width: 48px;
-        position: absolute;
+    /* about me page content */
+    .about-main {
+        grid-area: main;
     }
 
-    .bars::before {
-        transform: translateY(20px);
-    }
-
-    .bars::after {
-        transform: translateY(-20px);
-    }
-
-    .inner img {
-        width: 100%;
-    }
-
-    .heading h1, .heading h4 {
-        padding: 1em 0;
-        width: 100%;
-    }
-
-    .inner >h2, .inner>p {
-        padding: 1em 0;
-        width: 100%;
-        justify-content: stretch;
-    }
-
-    .footer-text >p {
-        width: 350px;
-        justify-content: space-evenly;
-    }
-
-    .icon {
-        width: 200px;
-    }
-} 
-
-/* tablet-landscape */
-@media all and (min-width: 992px) and (max-width: 1365px) {
-    .inner img {
-        width: 100%;
-    }
-
-    .social-icon {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: 35%;
-        margin-top: 2rem;
-        margin-left: auto;
-        margin-right: auto;
+    .short-about {
+        margin: 0;
     }
 }
 
-/* desktop */
- @media all and (min-width: 1366px) {
-    
+@media screen and (min-width: 67.37rem) {
+    /* header */
     body {
         display: grid;
-        grid-template-columns: 15% 70% 15%;
-        grid-template-rows: auto;
-        grid-template-areas: 
-          "nav nav nav"
-          ". main . "
-          "footer footer footer";
-      }
-    
-      /* navigation bar  */
-    nav {
-        grid-area: nav;
-    }
-
-    .toggle {
-        opacity: 0;
-    }
-
-    .logo-image {
-        margin: auto 0;
-        margin-left: 25%;   
-    }
-
-    .item {
-        display: flex;
-        flex-direction: row;
-        order: 2; 
-        flex-wrap: wrap;
-        margin: auto 0; 
-        margin-right: 5%;
-        border: 1px solid yellow;
-        width: auto;
-        justify-self: flex-end;
-        text-align: center;
-
-    } 
-
-    /* main content */
-
-    .inner {
-        position: relative;
-        width: fit-content;
-        max-width: 90%;
-        margin: 1em auto;
-        padding: 1em;
-    }
-
-    .inner img {
-        width: 100vw;
-    }
-
-    .inner >h2, .inner>p {
-        padding: 1rem 0;
         width: 100%;
+        height: auto;
+        grid-gap: 1rem;
+        grid-template-columns: auto 49.75rem auto;
+        grid-template-areas: 
+        " . nav . "
+        " . main . "
+        "footer footer footer";
     }
 
-    /* footer section */
-
-    footer {
-        height: 283px;
-    }
-
-    hr {
-        border: 0;
-        height: 1px;
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    }
-
-    .social-icon {
+    .navbar {
+        grid-area: nav;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
-        width: 35%;
+        padding: 0;
+    }
+
+    .menu {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
         margin-top: 2rem;
-        margin-left: auto;
-        margin-right: auto;
     }
 
-    .icon:first-child {
-        background-image: url("D:/Programming/Website/images/Icons/Linkedin.svg");
-        width: 50px;
-        height: 50px;
-        background-repeat: no-repeat;
+    .menu li {
+        margin: 1.2rem 2rem 0 0;
     }
 
-    .icon:nth-child(2) {
-        background-image: url("D:/Programming/Website/images/Icons/Github.svg");
-        width: 50px;
-        height: 50px;
-        background-repeat: no-repeat;
+    .navbar-toggle, .menu hr {
+        display: none;
     }
 
-    .icon:nth-child(3) {
-        background-image: url("D:/Programming/Website/images/Icons/Gmail.svg");
-        width: 50px;
-        height: 50px;
-        background-repeat: no-repeat;
+    /* main page content  */
+    .intro-header {
+        margin: 0 1rem 0 1rem;
     }
 
-    .icon:last-child {
-        background-image: url("D:/Programming/Website/images/Icons/Instagram.svg");
-        width: 50px;
-        height: 50px;
-        background-repeat: no-repeat;
+    .intro-header h3  {
+        width: 80%;
     }
-} 
+
+    .thumb-project img {
+        padding: 0 1rem 0 1rem;
+    }
+
+    .thumb-project-details {
+        display: grid;
+        width: auto;
+        grid-template-columns: 40% 60%;
+        margin: 0.5rem 1rem 3rem 1rem;
+        grid-template-areas: 
+        "name short"
+        " . link";
+    }
+
+    .thumb-project-details .name {
+        grid-area: name;
+        width: 90%;
+        margin: 0 0 1rem 0;
+        line-height: 2rem;
+    }
+    
+    .thumb-project-details .short {
+        grid-area: short;
+        height: fit-content;
+        margin: 0 0 0.5rem 0;
+        padding-top: 0.5rem;
+    }
+
+    .thumb-project-details .link {
+        grid-area: link;
+        height: 100%;
+        justify-content: flex-start;
+    }
+
+    /* detail page content */
+    .detail-main {
+        grid-area: main;
+    }
+
+    .detail-header {
+        width: fit-content;
+        text-align: left;
+        margin: 1rem 2rem 3rem 2rem;
+    }
+
+    .detail-header .name {
+        max-width: 32rem;
+        margin: 0 0 0.2rem 0;
+        padding-right: 0;
+    }
+
+    .detail-header .short-detail-lang {
+        width: fit-content;
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .detail-wrapper {
+        margin: 0 2rem 0 2rem;
+    }
+
+    /* about me page content */
+    .about-main {
+        grid-area: main;
+    }
+}

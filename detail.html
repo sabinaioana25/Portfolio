@@ -14,64 +14,60 @@
             <span class="navbar-toggle" id="js-navbar-toggle">
                 <i class="fa fa-bars"></i>
             </span>
+
             <a href="index.html" class="logo-image"></a>
             <ul class="menu"> 
-                <li><a href="index.html" class="nav-links">Projects</a></li>
+                <li>
+                    <a href="index.html" class="nav-links">Projects</a></li>
                 <hr>
-                <li><a href="http://sabinaleitoiu.tumblr.com/" class="nav-links">Photography</a></li>
+                <li>
+                    <a href="http://sabinaleitoiu.tumblr.com/" class="nav-links">Photography</a></li>
                 <hr>
-                <li><a href="about.html" class="nav-links">About</a></li>
+                <li>
+                    <a href="about.html" class="nav-links">About</a></li>
                 <hr>
             </ul> 
         </nav>
 
-        <main>
-            <div class="detail-main-header">
-                <p class="name">BLENDS APP</p>
-                <p class="short">Android</p>
+        <main class="detail-main">
+            <div class="detail-header">
+                <p class="name">Blends - Capstone Project</p>
+                <p class="short-detail-lang">Mobile app, Android, UX</p>
             </div>
+
             <div class="detail-wrapper">
-                <div class="thumb-project">
-                    <img src="images/Project_capstone/Project_images/Group1.png">
-                </div>
-                <p class="short">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Omnis, asperiores qui et deserunt aspernatur necessitatibus libero 
-                    voluptas dignissimos vero. Doloribus.</p>
-            </div>
-        
-            <div class="detail-wrapper">
-                <div class="thumb-project">
-                    <img src="images/Project_capstone/Project_images/Group1.png">
-                </div>
-                <p class="short">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                <img src="images/Project_capstone/Project_images/Group1.png" class="thumb-project">
+                <p class="short-detail">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                     Omnis, asperiores qui et deserunt aspernatur necessitatibus libero 
                     voluptas dignissimos vero. Doloribus.</p>
             </div>
 
             <div class="detail-wrapper">
-                <div class="thumb-project">
-                    <img src="images/Project_capstone/Project_images/Group1.png">
-                </div>
-                <p class="short">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                <img src="images/Project_capstone/Project_images/Group1.png" class="thumb-project">
+                <p class="short-detail">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                     Omnis, asperiores qui et deserunt aspernatur necessitatibus libero 
                     voluptas dignissimos vero. Doloribus.</p>
             </div>
 
-            <div class="project-controls">
-                <a href="D:/Programming/Website/index.html" class="nav-text">back to work</a>
-                <div class="nav-link">
-                    <a href="#" class="nav-text">prev</a>
-                    <span>/</span>
-                    <a href="#" class="nav-text">next</a> 
-                </div>
-               
+            <div class="detail-wrapper">
+                <img src="images/Project_capstone/Project_images/Group1.png" class="thumb-project">
+                <p class="short-detail">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Omnis, asperiores qui et deserunt aspernatur necessitatibus libero 
+                    voluptas dignissimos vero. Doloribus.</p>
+            </div>
+
+            <div class="detail-wrapper">
+                <img src="images/Project_capstone/Project_images/Group1.png" class="thumb-project">
+                <p class="short-detail">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Omnis, asperiores qui et deserunt aspernatur necessitatibus libero 
+                    voluptas dignissimos vero. Doloribus.</p>
             </div>
         </main>
 
         <footer>
             <hr class="divider">
             <div>
-                <h2>Where to find me...</h2>
+                <h2 class="footer-h2">Where to find me...</h2>
                 <p class="footer-paragraph">Feel free to reach out for collaboration or just a friendly hello 😀</p>      
             </div>
 
@@ -83,18 +79,5 @@
             </div>
         </footer> 
     </body>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-        $(function() {
-            $(".navbar-toggle").on("click", function() {
-                if ($(".menu").hasClass("active")) {
-                    $(".menu").removeClass("active");
-                }
-                else {
-                    $(".menu").addClass("active");
-                }
-            });
-        });
-</script>
+    <script src="./js/main.js"></script>
 </html>
