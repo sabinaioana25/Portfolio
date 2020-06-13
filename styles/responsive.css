@@ -31,7 +31,7 @@
     }
 
     .intro-header h1, .intro-header h3  {
-        width: 80%;
+        width: 90%;
     }
 
     .thumb-project-details {
@@ -142,13 +142,11 @@
 
     /* main page content */
     .intro-header {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        margin-bottom: 2rem;
+        margin: 0 1rem 1rem 1rem;
     }
 
     .intro-header h3  {
-        width: 70%;
+        width: 80%;
     }
 
     .thumb-project img {
@@ -223,7 +221,7 @@
 
     .short-about {
         margin: 0;
-    }
+    }    
 }
 
 @media screen and (min-width: 67.37rem) {
@@ -264,7 +262,7 @@
 
     /* main page content  */
     .intro-header {
-        margin: 0 1rem 0 1rem;
+        margin: 0 1rem 1rem 1rem;
     }
 
     .intro-header h3  {
@@ -336,4 +334,16 @@
     .about-main {
         grid-area: main;
     }
+
+    /* footer content */
+    .social-media-ic {
+        width: 33%;
+        padding: 0 1rem;
+        justify-content: space-between;       
+     }
+
+     .social-icon {
+         padding-top: 0.3rem;
+         padding-bottom: 0;
+     }
 }
