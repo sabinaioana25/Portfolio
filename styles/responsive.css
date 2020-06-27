@@ -92,6 +92,10 @@
         height: auto;
         margin: 0 0 2rem;
     }
+
+    .social-media-ic {
+        width: 35%;
+    }
 }
 
 @media screen and (min-width: 49.8rem) and (max-width: 67.4rem) {
@@ -229,7 +233,7 @@
 
     /* footer section */
     .social-media-ic {
-       width: 30%;
+       width: 33%;
     }
 }
 
@@ -343,6 +347,6 @@
 
     /* footer section */
     .social-media-ic {
-        width: 30%;
+        width: 31%;
     }
 }
