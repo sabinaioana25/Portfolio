@@ -1,7 +1,7 @@
 /* header */
 .menu li {
-    font-size: calc(0.8rem + 0.5vw);
-    text-align: center;
+    font-size: 1rem;
+    line-height: 2rem;
 }
 
 /* burger menu */
@@ -47,32 +47,29 @@
 /* detail section */
 .detail-header .name {
     font-weight: bolder;
-    font-size: calc(1.1rem + 1vw);    
-    line-height: 1.2;
+    font-size: 1.6rem;    
+    line-height: 2rem;
 }
 
 .detail-header .short-detail-lang {
     opacity: 50%;
-    font-size: calc(0.5rem + 0.7vw);
-    line-height: 1.2rem;
+    font-size: 1rem;
 }
 
 .detail-header-h3 {
     font-family:'Montserrat', sans-serif;
-    font-size: 1rem;
-    line-height: 1.4rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
     font-weight: 700;
     text-transform: uppercase; 
 }
 
 .detail-wrapper > p {
-    font-size: 0.9rem;
-    line-height: 1.8rem;
+    font-size: 1rem;
 }
 
 .project-technical-details > p {
-    font-size: 0.9rem;
-    line-height: 1.8rem;
+    font-size: 1rem;
 }
 
 .external-link {
@@ -111,7 +108,6 @@
 }
 
 .footer-paragraph {
-    font-size: 0.9rem;
-    line-height: 1.67em;   
+    font-size: 1rem;
     text-align: center;
 }

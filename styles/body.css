@@ -7,12 +7,7 @@ html {
     grid-area: main;
     width: 100%;
     height: auto;
-    padding: 0 ;
-}
-
-.landing-image {
-    position: relative;
-    text-align: center;
+    padding: 0;
 }
 
 .centered-header {
@@ -21,7 +16,6 @@ html {
     top: 40%;
     left: 40%;
     transform: translate(-20%, -30%);
-
 }
 
 .centered-subheader {
@@ -50,13 +44,13 @@ html {
 
 /* project detail page */
 .detail-main {
-    padding: 0 1rem;
+    padding: 0 0.5rem;
 }
 
 .detail-header {
     width: 100%;
     text-align: center;
-    margin: 1rem 0 2rem 0;
+    margin: 1rem 0;
 }
 
 .detail-header .name {
@@ -71,20 +65,21 @@ html {
     margin: 1rem 0 1rem 0;
 }
 
-.project-technical-details > p {
-    margin: 0 0 0.75rem 0;
-}
-
 .detail-hr {
+    width: 100%;
     margin: 1rem 0;
 }
 
 .detail-header-h3 {
-    margin: 1rem 0 0 0;   
+    margin: 1rem 1rem 0 1rem;   
 }
 
 .detail-wrapper > p {
-    margin: 0 0 0.75rem 0;
+    margin: 0 1rem 0.75rem 1rem;
+}
+
+.project-technical-details > p {
+    margin: 0 1rem 0.75rem 1rem;
 }
 
 #feature-prior {
