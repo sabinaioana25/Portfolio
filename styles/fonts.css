@@ -2,7 +2,6 @@
 .menu li {
     font-size: 1rem;
     line-height: 2rem;
-    /* text-decoration: none; */
     list-style: none;
 }
 
@@ -26,7 +25,7 @@
 }
  
 .name { 
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
     line-height: 1.6;
 }

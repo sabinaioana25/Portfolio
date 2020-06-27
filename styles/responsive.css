@@ -32,12 +32,18 @@
     
     .menu li {
         margin-left: 1rem;
+        margin-right: 0;
     }
 
     .logo-image {
         width: 2rem;
         height: 3rem;
-        margin: 0.5rem 0 0 0;
+        margin: 0;
+        margin: 0.8rem 0 0 0;
+    }
+
+    .fa-bars {
+        margin-top: 1rem;
     }
 
     /* main page content */
@@ -53,17 +59,20 @@
     
     .thumb-project-details .name {
         grid-area: name;
+        font-size: 1.2rem;
     }
     
     .thumb-project-details .short {
         grid-area: short;
         height: fit-content;
         margin-top: 0.2rem;
+        font-size: 1.1rem;
     }
 
     .thumb-project-details .link {
         grid-area: link;
         justify-content: flex-start;
+        font-size: 1.1rem;
     }
 
     /* detail page content */
@@ -116,7 +125,7 @@
         grid-area: nav;
         display: flex;
         flex-direction: row;        
-        padding: 1rem;
+        padding: 1rem 0 1rem  1rem;
         justify-content: space-between;
     }
 
@@ -134,13 +143,15 @@
         display: flex;
         width: 50%;
         justify-content: flex-end;
-        right: 1rem;
         margin-top: 1.2rem;
-        padding: 0;
+        margin-right: 1rem;
+        padding-right: 0;
     }
 
     .menu li {
         margin-left: 1rem;
+        margin-right: 0;
+        font-size: 1.1rem;
     }
 
     /* main page content */
@@ -161,17 +172,20 @@
     }
 
     .thumb-project-details .name {
-        grid-area: name;
+        grid-area: name;      
+        font-size: 1.2rem;
     }
     
     .thumb-project-details .short {
         grid-area: short;
-        margin-top: 0.2rem;
+        margin-top: 0.2rem;       
+        font-size: 1.1rem;
     }
 
     .thumb-project-details .link {
         grid-area: link;
         justify-content: flex-start;
+        font-size: 1.1rem;
     }
 
     /* detail page content */
@@ -256,7 +270,7 @@
         grid-area: nav;
         display: flex;
         flex-direction: row;
-        padding: 1rem;
+        padding: 1rem 0 1rem 0;
         justify-content: space-between;
     }
 
@@ -267,7 +281,7 @@
     .logo-image {
         width: 2rem;
         height: 3rem;
-        margin: 0.5rem 0 0 0;
+        margin: 0.5rem 0 0 1rem;
     }
 
     .menu {
@@ -275,12 +289,15 @@
         width: 50%;
         justify-content: flex-end;
         margin-top: 1.2rem;
+        margin-right: 1rem;
         right: 1rem;
-        padding: 0;
+        padding-right: 0;
     }
 
     .menu li {
         margin-left: 1rem;
+        margin-right: 0;
+        font-size: 1.1rem;
     }
 
     /* main page content  */
@@ -299,17 +316,21 @@
  
     .thumb-project-details .name {
         grid-area: name;
+        font-size: 1.2rem;
+
     }
     
     .thumb-project-details .short {
         grid-area: short;
         height: fit-content;
         margin-top: 0.2rem;
+        font-size: 1.1rem;
     }
 
     .thumb-project-details .link {
         grid-area: link;
         justify-content: flex-start;
+        font-size: 1.1rem;
     } 
 
     /* detail page content */
