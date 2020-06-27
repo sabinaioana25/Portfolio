@@ -228,7 +228,7 @@
     } */
 
     /* footer section */
-    .social-media-ic {
+    .div-images {
         width: 40%;
     }
 }
@@ -339,5 +339,10 @@
         width: 30%;
         height: auto;
         margin: 0 0 2rem;
+    }
+
+    /* footer section */
+    .div-images{
+        width: 30%;
     }
 }

@@ -19,7 +19,6 @@ footer hr {
 
 .footer-paragraph {
     width: 50%;
-    /* width: fit-content; */
     margin: 0 auto 1.5rem auto;
 } 
 
@@ -31,7 +30,7 @@ footer hr {
     margin: 0 auto 1.5rem auto;
 }
 
-.social-icon:hover {
+.div-images:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
