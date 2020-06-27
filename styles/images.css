@@ -1,13 +1,31 @@
 /* header */
 .logo-image {
-    width: 4rem;
-    height: 4rem;
-    background-image: url("D:/Programming/Website/images/Logo/logo.png");
+    position: relative;
+    display: inline-block;
+    width: 1.8rem;
+    height: 2.8rem;
+    margin: 0.8rem 0 0 1rem;
+    background-image: url("../images/logo/website-logo.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 /* style project images */
+.landing-image > img {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.arrow-image > img {
+    width: 2rem;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto 2rem auto;
+}
+
 .thumb-project > img {
     width: 100%;
     height: auto;
@@ -17,16 +35,17 @@
 .detail-wrapper > img {
     width: 100%;
     height: auto;
-    margin-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 0;
+    padding: 0;
     background-repeat: no-repeat;
 }
 
 .image-about {
     display: block;
     margin: 2rem auto 1rem auto;
+    width: 100%;
+}
+
+.thumb-proj-ux {
     width: 100%;
 }
 

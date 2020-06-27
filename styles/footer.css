@@ -1,28 +1,32 @@
 footer {
     grid-area: footer;
+    overflow: hidden;
 }
 
 footer hr {
-    width: 100%;
+    width: auto;
     height: 1px;
     margin-bottom: 0;
     border: none;
     background-color: #F3F3F3;
+    overflow: hidden;
 }
 
 .footer-h2 {
-    margin: 1rem 0 1rem 0;
+    width: fit-content;
+    margin: 1rem auto;
 }
 
 .footer-paragraph {
     width: 50%;
+    /* width: fit-content; */
     margin: 0 auto 1.5rem auto;
 } 
 
 .social-media-ic {
     display: flex;
     flex-direction: row;
-    width: 65%;
+    width: 50%;
     justify-content: space-evenly;
     margin: 0 auto 1.5rem auto;
 }

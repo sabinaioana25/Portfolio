@@ -2,9 +2,10 @@ body {
     display: grid;
     width: 100%;
     height: auto;
-    grid-gap: 1rem;
+    grid-gap: 0;
     grid-template-areas: 
     "nav"
     "main"
     "footer";
+    overflow-x: hidden;
 }
