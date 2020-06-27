@@ -23,6 +23,7 @@ footer hr {
 } 
 
 .social-media-ic {
+    grid-area: footer;
     display: flex;
     flex-direction: row;
     width: 50%;
