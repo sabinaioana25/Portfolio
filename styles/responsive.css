@@ -229,9 +229,9 @@
 
     /* footer section */
     .social-media-ic {
-        width: 2rem;
-        height: 2rem;
+       width: 30%;
     }
+}
 
 @media screen and (min-width: 67.4rem) {
     /* header */
@@ -343,7 +343,6 @@
 
     /* footer section */
     .social-media-ic {
-        width: 2rem;
-        height: 2rem;
+        width: 30%;
     }
 }
