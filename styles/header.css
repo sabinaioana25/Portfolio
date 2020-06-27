@@ -27,7 +27,7 @@
 .navbar-toggle {
     position: absolute;
     top: 0.5rem;
-    right: 0.5rem;
+    right: 1rem;
     cursor: pointer;
     margin: 0;
     padding: 0;

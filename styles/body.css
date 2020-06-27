@@ -44,7 +44,7 @@ html {
 
 /* project detail page */
 .detail-main {
-    padding: 0 0.5rem;
+    padding: 0 1rem;
 }
 
 .detail-header {
@@ -71,7 +71,7 @@ html {
 }
 
 .detail-header-h3 {
-    margin: 1rem 1rem 0 1rem;   
+    margin: 1rem 1rem 0 1rem ;   
 }
 
 .detail-wrapper > p {
