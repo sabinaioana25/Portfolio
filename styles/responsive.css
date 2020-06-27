@@ -226,6 +226,11 @@
     .short-about {
         margin: 0;
     } */
+
+    /* footer section */
+    .social-media-ic {
+        width: 40%;
+    }
 }
 
 @media screen and (min-width: 67.4rem) {
