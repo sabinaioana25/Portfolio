@@ -26,18 +26,18 @@
 }
  
 .name { 
-    font-size: calc(0.8rem + 0.5vw);
+    font-size: 1.2rem;
     font-weight: bold;
     line-height: 1.6;
 }
 
 .short {
-    font-size: calc(0.7rem + 0.5vw);
+    font-size: 1rem;
     line-height: 1.6;
 }
 
 .link {
-    font-size: calc(0.7rem + 0.5vw);
+    font-size: 1rem;
     line-height: 1.6;
     color: blue;
 }

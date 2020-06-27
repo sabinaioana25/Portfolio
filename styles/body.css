@@ -50,7 +50,6 @@ html {
 .detail-header {
     width: 100%;
     text-align: center;
-    /* margin: 1rem 0; */
 }
 
 .detail-header .name {
@@ -58,12 +57,9 @@ html {
 }
 
 .detail-header .short-detail-lang {
-    margin: 0;
+    margin-bottom: 1rem;
+    margin-top: 0;
 }
-
-/* .short-detail {
-    margin: 1rem 0 1rem 0;
-} */
 
 .detail-hr {
     width: 100%;
