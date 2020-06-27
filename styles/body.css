@@ -50,7 +50,7 @@ html {
 .detail-header {
     width: 100%;
     text-align: center;
-    margin: 1rem 0;
+    /* margin: 1rem 0; */
 }
 
 .detail-header .name {
@@ -61,9 +61,9 @@ html {
     margin: 0;
 }
 
-.short-detail {
+/* .short-detail {
     margin: 1rem 0 1rem 0;
-}
+} */
 
 .detail-hr {
     width: 100%;
@@ -71,15 +71,16 @@ html {
 }
 
 .detail-header-h3 {
-    margin: 1rem 1rem 0 1rem ;   
+    margin: 1rem 0 0.2rem 0 ;   
 }
 
-.detail-wrapper > p {
-    margin: 0 1rem 0.75rem 1rem;
+.detail-wrapper p {
+    margin-bottom: 1rem;
+    margin-top: 0;
 }
 
 .project-technical-details > p {
-    margin: 0 1rem 0.75rem 1rem;
+    margin: 0 ;
 }
 
 #feature-prior {

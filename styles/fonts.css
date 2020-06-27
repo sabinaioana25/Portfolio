@@ -51,6 +51,7 @@
     font-weight: bolder;
     font-size: 1.6rem;    
     line-height: 2rem;
+    font-weight: 700;
 }
 
 .detail-header .short-detail-lang {
@@ -60,14 +61,16 @@
 
 .detail-header-h3 {
     font-family:'Montserrat', sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.5rem;
-    font-weight: 700;
-    text-transform: uppercase; 
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    /* text-transform: uppercase;  */
 }
 
 .detail-wrapper > p {
     font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 .project-technical-details > p {
