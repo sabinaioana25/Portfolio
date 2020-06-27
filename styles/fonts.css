@@ -2,6 +2,7 @@
 .menu li {
     font-size: 1rem;
     line-height: 2rem;
+    text-decoration: none;
 }
 
 /* burger menu */
