@@ -228,10 +228,10 @@
     } */
 
     /* footer section */
-    .div-images {
-        width: 40%;
+    .social-media-ic {
+        width: 2rem;
+        height: 2rem;
     }
-}
 
 @media screen and (min-width: 67.4rem) {
     /* header */
@@ -342,7 +342,8 @@
     }
 
     /* footer section */
-    .div-images{
-        width: 30%;
+    .social-media-ic {
+        width: 2rem;
+        height: 2rem;
     }
 }
