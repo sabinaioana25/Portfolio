@@ -224,7 +224,7 @@
 
     .detail-image-flex-mockup > img {
         width: 14.34rem;
-        height: auto;
+        height: 100vh;
         margin: 0 0 2rem;
     }
 
