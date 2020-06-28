@@ -14,7 +14,7 @@
 /* main landing page */ 
 .name { 
     font-size: 1.1rem;
-    font-weight: bolder;
+    font-weight: bold;
     line-height: 1.6rem;
     text-transform: capitalize;
 }
