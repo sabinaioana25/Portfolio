@@ -19,7 +19,6 @@
     text-align: center;
     margin: 0.3rem 0 0 0;
     padding: 0;
-    /* padding: 0.3rem 0 0 0; */
 }
 
 .arrow-image > img {
@@ -33,6 +32,7 @@
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
+    border-radius: 6px;
 }
 
 .detail-wrapper > img {

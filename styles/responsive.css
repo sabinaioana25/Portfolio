@@ -47,6 +47,10 @@
     }
 
     /* main page content */
+    .thumb-project > img {
+        border-radius: 0;
+    }
+    
     .thumb-project-details {
         display: grid;
         width: auto;
@@ -66,13 +70,13 @@
         grid-area: short;
         height: fit-content;
         margin-top: 0.2rem;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .thumb-project-details .link {
         grid-area: link;
         justify-content: flex-start;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     /* detail page content */
@@ -89,7 +93,8 @@
     }
 
     .project-technical-details > p {
-        font-size: calc(0.9rem + 0.1vw);
+        font-size: 1rem;
+        line-height: 1.6rem;
     }
 
     .detail-image-flex-mockup {
@@ -160,6 +165,10 @@
         flex-wrap: wrap;
         width: 100%;
     }
+
+    .thumb-project > img {
+        border-radius: 0;
+    }
  
     .thumb-project-details {
         display: grid;
@@ -178,13 +187,13 @@
     .thumb-project-details .short {
         grid-area: short;
         margin-top: 0.2rem;       
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .thumb-project-details .link {
         grid-area: link;
         justify-content: flex-start;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     /* detail page content */
@@ -205,7 +214,8 @@
     }
 
     .project-technical-details > p {
-        font-size: calc(0.9rem + 0.1vw);
+        font-size: 1rem;
+        line-height: 1.6rem;
     }
 
     .detail-image-flex-mockup {
@@ -313,23 +323,26 @@
         " . link";
     }
  
+    .thumb-project > img {
+        border-radius: 0;
+
+    }
     .thumb-project-details .name {
         grid-area: name;
         font-size: 1.2rem;
-
     }
     
     .thumb-project-details .short {
         grid-area: short;
         height: fit-content;
         margin-top: 0.2rem;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .thumb-project-details .link {
         grid-area: link;
         justify-content: flex-start;
-        font-size: 1.1rem;
+        font-size: 1rem;
     } 
 
     /* detail page content */
@@ -351,7 +364,8 @@
     }
 
     .project-technical-details > p {
-        font-size: calc(0.9rem + 0.1vw);
+        font-size: 1rem;
+        line-height: 1.6rem;
     }
 
     .detail-image-flex-mockup {
