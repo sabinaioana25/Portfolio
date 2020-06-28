@@ -60,12 +60,11 @@
 
 .detail-image-flex > img {
     max-width: 90%;
-    /* height: 100vh; */
 }
 
 .detail-image-flex-mockup > img {
     width: 14.34rem;
-    height: 100vh;
+    height: 29.38rem;
     margin: 0 0 2rem;
     margin-right: 2rem;
     margin-left: 2rem;
