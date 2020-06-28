@@ -53,11 +53,11 @@ html {
 }
 
 .detail-header .name {
-    margin: 0;
+    margin: 1rem 0 0 0;
 }
 
 .detail-header .short-detail-lang {
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
     margin-top: 0;
 }
 
@@ -83,6 +83,10 @@ html {
     margin-bottom: 0.75rem;
 }
 
+#short-2 {
+    margin-top: 1rem;
+}
+
 .detail-flexbox {
     display: flex;
     flex-direction: row;
@@ -103,23 +107,13 @@ html {
     margin-top: 0;
 }
 
-.detail-image-flex > img {
-    max-width: 90%;
-}
-
 .detail-image-flex-mockup {
     display: flex;
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 0.5rem;   
-}
-
-.detail-image-flex-mockup > img {
-    width: 70%;
-    height: auto;
-    margin: 0 0 2rem;
+    margin-top: 0.5rem;  
 }
 
 .project-controls {

@@ -11,33 +11,22 @@
     color: #000;
 }
 
-/* main landing page */
-.centered-header {
-    font-size: calc(1rem + 1vw);
-    line-height: 1.5rem;
-    font-family: 'PT Serif';
-}
-
-.centered-subheader {
-    font-size: calc(0.6rem + 0.3vw);
-    line-height: 1.2rem;
-    font-family: 'PT Sans Narrow', sans-serif;
-}
- 
+/* main landing page */ 
 .name { 
     font-size: 1.1rem;
-    font-weight: bold;
-    line-height: 1.6;
+    font-weight: bolder;
+    line-height: 1.6rem;
+    text-transform: capitalize;
 }
 
 .short {
     font-size: 1rem;
-    line-height: 1.6;
+    line-height: 1.5rem;
 }
 
 .link {
     font-size: 1rem;
-    line-height: 1.6;
+    line-height: 1.5rem;
     color: blue;
 }
 
@@ -47,7 +36,6 @@
 
 /* detail section */
 .detail-header .name {
-    font-weight: bolder;
     font-size: 1.6rem;    
     line-height: 2rem;
     font-weight: 700;
@@ -64,7 +52,6 @@
     line-height: 1.6rem;
     font-weight: 600;
     text-transform: capitalize;
-    /* text-transform: uppercase;  */
 }
 
 .detail-wrapper > p {

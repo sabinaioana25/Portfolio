@@ -4,7 +4,7 @@
     display: inline-block;
     width: 1.8rem;
     height: 2.8rem;
-    margin: 0.8rem 0 0 0;
+    margin: 0.8rem 0 0 1rem;
     background-image: url("../images/logo/website-logo.jpg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -17,8 +17,9 @@
     background-repeat: no-repeat;
     position: relative;
     text-align: center;
-    margin: 0;
+    margin: 0.3rem 0 0 0;
     padding: 0;
+    /* padding: 0.3rem 0 0 0; */
 }
 
 .arrow-image > img {
@@ -49,9 +50,22 @@
 
 .thumb-proj-ux {
     width: 100%;
-    /* padding: 0 1rem; */
-    /* padding-left: 1rem;
-    padding-right: 1rem; */
+}
+
+#thumb-crazy-8s {
+    margin-bottom: 1rem;
+}
+
+.detail-image-flex > img {
+    max-width: 90%;
+}
+
+.detail-image-flex-mockup > img {
+    width: 14.34rem;
+    height: auto;
+    margin: 0 0 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 /* footer social icons */

@@ -22,7 +22,7 @@ footer hr {
     margin: 0 auto 1.5rem auto;
 } 
 
-.social-media-ic {
+.group-ic {
     grid-area: footer;
     display: flex;
     flex-direction: row;
