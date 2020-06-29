@@ -61,19 +61,19 @@
         " . link";
     }
     
-    .thumb-project-details .name {
+    .name {
         grid-area: name;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     
-    .thumb-project-details .short {
+    .short {
         grid-area: short;
         height: fit-content;
         margin-top: 0.2rem;
         font-size: 1rem;
     }
 
-    .thumb-project-details .link {
+   .link {
         grid-area: link;
         justify-content: flex-start;
         font-size: 1rem;
@@ -85,11 +85,11 @@
     }
 
     .detail-header-h3 {
-        font-size: 1rem; 
+        font-size: 1.1rem; 
     }
 
     .detail-wrapper > p {
-        font-size: calc(00.9rem + 0.1vw);
+        font-size: 1rem;
     }
 
     .project-technical-details > p {
@@ -185,18 +185,18 @@
         " . link";
     }
 
-    .thumb-project-details .name {
+    .name {
         grid-area: name;      
         font-size: 1.2rem;
     }
     
-    .thumb-project-details .short {
+    .short {
         grid-area: short;
         margin-top: 0.2rem;       
         font-size: 1rem;
     }
 
-    .thumb-project-details .link {
+    .link {
         grid-area: link;
         justify-content: flex-start;
         font-size: 1rem;
@@ -212,11 +212,11 @@
     }
 
     .detail-header-h3 {
-        font-size: 1rem; 
+        font-size: 1.1rem; 
     }
 
     .detail-wrapper > p {
-        font-size: calc(0.9rem + 0.1vw);
+        font-size: 1rem;
     }
 
     .project-technical-details > p {
@@ -326,19 +326,19 @@
         border-radius: 0;
 
     }
-    .thumb-project-details .name {
+    .name {
         grid-area: name;
         font-size: 1.2rem;
     }
     
-    .thumb-project-details .short {
+    .short {
         grid-area: short;
         height: fit-content;
         margin-top: 0.2rem;
         font-size: 1rem;
     }
 
-    .thumb-project-details .link {
+    .link {
         grid-area: link;
         justify-content: flex-start;
         font-size: 1rem;
@@ -355,11 +355,11 @@
     }
     
     .detail-header-h3 {
-        font-size: 1rem; 
+        font-size: 1.1rem; 
     }
 
     .detail-wrapper > p {
-        font-size: calc(0.9rem + 0.1vw);
+        font-size: 1rem;
     }
 
     .project-technical-details > p {

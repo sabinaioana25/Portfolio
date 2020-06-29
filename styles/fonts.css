@@ -48,24 +48,24 @@
 
 .detail-header-h3 {
     font-family:'Montserrat', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.6rem;
     font-weight: 600;
     text-transform: capitalize;
 }
 
 .detail-wrapper > p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.5rem;
 }
 
 .project-technical-details {
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.6rem;
 }
 
 .detail-image-flex > p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-style: italic;
     line-height: 0.4rem;
     margin-top: 0;
