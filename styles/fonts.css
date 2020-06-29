@@ -13,19 +13,19 @@
 
 /* main landing page */ 
 .name { 
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: bold;
     line-height: 1.6rem;
     text-transform: capitalize;
 }
 
 .short {
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.5rem;
 }
 
 .link {
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.5rem;
     color: blue;
 }

@@ -10,17 +10,16 @@ html {
     padding: 0;
 }
 
-.thumb-project {
-    padding: 0 1rem;
+/* .thumb-project {
     margin: 0;
-}
+} */
 
 .thumb-project-details  {
-    margin: 0.5rem 1rem 2rem 1rem;
+    margin: 0 1rem 1.5rem 1rem;
 }
 
 .thumb-project-details .name {
-   margin: 0 0 0.2rem 0;
+   margin: 0 0 0.1rem 0;
    font-family: 'Montserrat', sans-serif;
 }
 
