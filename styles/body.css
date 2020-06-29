@@ -94,12 +94,14 @@ html {
 }
 
 .detail-image-flex-mockup {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 0.5rem;  
+    display: grid;
+}
+
+.detail-image-flex-mockup > img {
+    justify-self: center;
+    width: 14.34rem;
+    height: 29.38rem;
+    margin: 0 0 1rem;
 }
 
 .project-controls {
