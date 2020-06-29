@@ -59,7 +59,8 @@
 }
 
 .detail-image-flex > img {
-    max-width: 90%;
+    max-width: 21.20rem;
+    max-height: 37.63rem;
 }
 
 /* footer social icons */

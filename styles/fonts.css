@@ -62,7 +62,13 @@
 .project-technical-details {
     font-size: 1rem;
     line-height: 1.6rem;
-    /* font-weight: bold; */
+}
+
+.detail-image-flex > p {
+    font-size: 0.9rem;
+    font-style: italic;
+    line-height: 0.4rem;
+    margin-top: 0;
 }
 
 .external-link {

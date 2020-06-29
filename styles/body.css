@@ -73,24 +73,17 @@ html {
     margin-top: 1rem;
 }
 
-.detail-flexbox {
+ .detail-flexbox {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 0;
-    justify-content: center;
 }
 
 .detail-image-flex {
     display: block;
     text-align: center;
-    justify-content: space-between;  
-}
-
-.detail-image-flex > p {
-    font-size: smaller;
-    font-style: italic;
-    line-height: 0.4rem;
-    margin-top: 0;
+    justify-content: space-around;  
+    margin-bottom: 1rem;
 }
 
 .detail-image-flex-mockup {
@@ -102,13 +95,6 @@ html {
     width: 14.34rem;
     height: 29.38rem;
     margin: 0 0 1rem;
-}
-
-.project-controls {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 4rem 2rem 3rem 2rem;
 }
  
 .footer-nav {
