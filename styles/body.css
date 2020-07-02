@@ -81,16 +81,28 @@ html {
     margin-bottom: 1rem;
 }
 
-.detail-image-flex-mockup {
+.detail-image-flex-mockup-9 {
     display: grid;
 }
 
-.detail-image-flex-mockup > img {
+.detail-image-flex-mockup-9 > img {
     justify-self: center;
     width: 14.34rem;
     height: 29.38rem;
     margin: 0 0 1rem;
 }
+
+.detail-image-flex-mockup-3 {
+    display: grid;
+}
+
+.detail-image-flex-mockup-3 > img {
+    justify-self: center;
+    width: 14.34rem;
+    height: 29.38rem;
+    margin: 0 0 1rem;
+}
+
  
 .footer-nav {
     display: flex;

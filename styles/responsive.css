@@ -97,7 +97,7 @@
         line-height: 1.6rem;
     }
 
-    .detail-image-flex-mockup {
+    .detail-image-flex-mockup-9 {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(5,1fr);
@@ -105,13 +105,27 @@
         gap: 1rem;
     }
     
-    .detail-image-flex-mockup > img {
+    .detail-image-flex-mockup-9 > img {
         justify-self: center;
         max-width: 14.34rem;
         max-height: 29.38rem;
         margin: 0;
     }
    
+
+    .detail-image-flex-mockup-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 4rem;
+        gap: 1rem;
+    }
+    
+    .detail-image-flex-mockup-3 > img {
+        justify-self: center;
+        max-width: 14.34rem;
+        max-height: 29.38rem;
+        margin: 0;
+    }
     /* footer section */
     .group-ic {
         width: 35%;
@@ -231,13 +245,26 @@
         justify-content: space-evenly;
     }   
     
-    .detail-image-flex-mockup {
+    .detail-image-flex-mockup-9 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: repeat(3,1fr);
     }
     
-    .detail-image-flex-mockup > img {
+    .detail-image-flex-mockup-9 > img {
+        justify-self: center;
+        max-width: 14.34rem;
+        max-height: 29.38rem;
+        margin: 0 0 1rem;
+    }
+
+    .detail-image-flex-mockup-3 {
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+    .detail-image-flex-mockup-3 > img {
         justify-self: center;
         max-width: 14.34rem;
         max-height: 29.38rem;
@@ -374,13 +401,26 @@
         justify-content: space-evenly;
     }  
 
-    .detail-image-flex-mockup {
+    .detail-image-flex-mockup-9 {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3,1fr);
     }
     
-    .detail-image-flex-mockup > img {
+    .detail-image-flex-mockup-9 > img {
+        justify-self: center;
+        max-width: 14.34rem;
+        max-height: 29.38rem;
+        margin: 0 0 1rem;
+    }
+
+    .detail-image-flex-mockup-3 {
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .detail-image-flex-mockup-3  > img {
         justify-self: center;
         max-width: 14.34rem;
         max-height: 29.38rem;
