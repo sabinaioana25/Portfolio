@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Blends</title>
+        <title>Baking App</title>
     </head>
     
     <body>
@@ -36,61 +36,65 @@
             </div>
             <div class="detail-wrapper">
                 <h3 class="detail-header-h3">intro</h3>
-                <p class="short-detail">Blends was created as part of Udacity's Android Developer Nanodegree Program. The project
-                    is a showcase for what I have learned throughout the entire course.</p>
-
-                    <img src="../images/and-project-blends-app/Untitled-1.jpg" class="thumb-proj-ux">
+                <p class="short-detail">This project comes under Udacity's Android Development Nanodegree. 
+                    The scope of the project is to design and plan the steps necessary to create a production-ready application. The JSON file containing
+                    the recepies' instructions, ingredients, videos and images are provided by Udacity.
+                </p>
+                
                 <hr class="detail-hr"> 
                 <div class="project-technical-details">                
                     <p><b>Objective:</b> build an app of my own design in two stages (design & plan, code build)</p>
-                    <p><b>Duration:</b> 3 weeks</p>
+                    <p><b>Duration:</b> 2 weeks</p>
                     <p><b>Tools used:</b> Android Studio, Adobe XD & Photoshop</p>
-                    <p>‍<b>Final product showcase:</b> Android app that can is ready for submission to the Google Play Store</p>
+                    <p>‍<b>Final product showcase:</b> An app to view video recipes</p>
                 </div>
                 <hr class="detail-hr">
+                <img src="../images/and-project-baking-app/and-project-baking-tablet-land.jpg" class="thumb-proj-ux">
                 <h3 class="detail-header-h3" id="problem">description</h3>
-                <p class="short-detail">Most coffee house apps cover a very wide area of London and they don’t filter through the best
-                    places, offering details on everything that serves coffee, even franchises.
-                    Blends displays only small, independent coffee houses, all located in Central London.
-                    As the user walks around, they can get automatically notified about new or
-                    already known cafes; these notifications can also be deactivated as preferred.</p>
+                <p class="short-detail">
+                    My task was to create a Android Baking App that will allow Udacity’s resident baker-in-chief, Miriam, 
+                    to share her recipes with the world. The app would allow a user to select a recipe and 
+                    see video-guided steps for how to complete it.
+                </p>
                 <h3 class="detail-header-h3">features</h3>
-                <p class="short-detail"> - Add new cafes to the list of 'favorites' or 'want-to-visit'<br>
-                    - Search on the map for new coffee places<br>
-                    - Choose a cafe from the list to see its details (address, contact number, opening hours)<br>
-                    - Use the app's Widget to view cafe suggestions at a glance<br>
-                    - Give rating to each places<br>
-                    - Share favorite cafes with friends<br>
+                <p class="short-detail"> Upon clicking a recipe, the user is presented with a list of steps. The user can also 
+                    access the ingredient list. The app also has functionality to change the recipe within the steps list activity. <br>
+                    In this activity, the user can also save the recipe to a screen widget. Upon selecting a step, the user is presented 
+                    with more details about the steps and also video tutorials (if provided in the JSON file). 
                 </p>
                 <h3 class="detail-header-h3">project requirements</h3>
-                <p class="short-detail"> - JDK 1.8 <br>
+                <p class="short-detail"> 
+                    - Project is written using only Java<br>
+                    - JDK 1.8 <br>
                     - Android SDK <br>
                     - Android Nougat (API 25) <br>
                     - Latest Android SDK Tools (Android studio 3.0 canary) and build tools <br>
                 </p>
 
                 <h3 class="detail-header-h3">implementation</h3>
-                <p class="short-detail"> As a requirement, this project is written using only Java.<br>
-                    Application integrates two Google services:<br>                    
-                    - Google Location service<br>
-                    - Google Map service<br>
+                <p class="short-detail"> 
+                    The project uses the following functionality features:<br>
+                   - Exoplayer to display videos <br>
+                   - Home screen widget<br>
+                   - Third-party library<br>
+                   - Fragments to create a responsive design that works on phones and tablets<br>
+                   - UI testing (JUnit 4 and Espresso)
                 </p>
+                <img src="../images/and-project-baking-app/and-project-baking-unit-test.jpg" class="thumb-proj-ux">
+
                 <h3 class="detail-header-h3">Data persistance</h3>
-                <p class="short-detail"> The app integrates <i>SQLite</i> for caching the locations chosen by
-                    the user, <i>ContentProvider</i> for data sharing between apps and 
-                    <i>Sharedpreferences</i> to save all 
-                    the settings made by the user (e.g. notifications). App uses a Loader 
-                    to move its data to its views.
+                <p class="short-detail"> 
+                    The android application makes a request of the recipe data from the network and saves the
+                    data in the local storage as <i>SharedPreferences</i>. This data is then presented to the user 
+                    in a <i>RecyclerView</i>. 
                 </p>
+                <img src="../images/and-project-baking-app/and-project-baking-fragment.jpg" class="thumb-proj-ux">
 
                 <h3 class="detail-header-h3">UI</h3>
-                <p class="short-detail"> All activities in the application are 'Resource' aware and handle the Resource data object provided by the 
-                    data layer to update the UI with data and the network state.<br>
-                    The UI is made of 3 distinctive views:<br>
-                    - Cafe List view: lists cafes for the area (select between favorites and want to try)<br>
-                    - Detail cafe view: contains details about each place (e.g. address, opening hours) <br>
-                    - Map Location View
+                <p class="short-detail"> 
+                    The UI is using responsive design and material design guidelines that works on phone and tablet screens.
                 </p>
+
 
                 <h3 class="detail-header-h3">screenshots</h3>
                 <p>The full project can be found <a href="https://github.com/sabinaioana25/MyCapstoneProject" >here</a></p>
