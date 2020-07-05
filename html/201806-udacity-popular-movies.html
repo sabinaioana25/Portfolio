@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Baking App</title>
+        <title>Cinematik</title>
     </head>
     
     <body>
@@ -31,36 +31,35 @@
 
         <main class="detail-main">
             <div class="detail-header">
-                <p class="name">Baking App</p>
+                <p class="name">Cinematik</p>
                 <p class="short-detail-lang">Mobile / UX </p>
             </div>
             <div class="detail-wrapper">
                 <h3 class="detail-header-h3">intro</h3>
-                <p class="short-detail">This project comes under Udacity's Android Development Nanodegree. 
-                    The scope of the project is to design and plan the steps necessary to create a production-ready application. The JSON file containing
-                    the recepies' instructions, ingredients, videos and images are provided by Udacity.
+                <p class="short-detail">This is the second project in Udacity's Android Developer Nanodegree. 
+                    The purpose of this project was to built an app to help users discover 
+                    popular and highly rated movies on the web. This app utilizes core Android user interface components 
+                    and fetches movie information from <i>themoviedb.org</i> web API.
                 </p>
                 
                 <hr class="detail-hr"> 
                 <div class="project-technical-details">                
-                    <p><b>Objective:</b> build an app of my own design in two stages (design & plan, code build)</p>
+                    <p><b>Objective:</b> build a clean UI, sync to a server and present information about movies</p>
                     <p><b>Duration:</b> 2 weeks</p>
                     <p><b>Tools used:</b> Android Studio, Adobe XD & Photoshop</p>
-                    <p>‍<b>Final product showcase:</b> An app to view video recipes</p>
+                    <p>‍<b>Final product showcase:</b> an app that displays popular and recently launched movies</p>
                 </div>
                 <hr class="detail-hr">
-                <img src="../images/and-project-baking-app/and-project-baking-tablet-land.jpg" class="thumb-proj-ux">
-                <h3 class="detail-header-h3" id="problem">description</h3>
-                <p class="short-detail">
-                    My task was to create a Android Baking App that will allow Udacity’s resident baker-in-chief, Miriam, 
-                    to share her recipes with the world. The app would allow a user to select a recipe and 
-                    see video-guided steps for how to complete it.
-                </p>
                 <h3 class="detail-header-h3">features</h3>
-                <p class="short-detail"> Upon clicking a recipe, the user is presented with a list of steps. The user can also 
-                    access the ingredient list. The app also has functionality to change the recipe within the steps list activity. <br>
-                    In this activity, the user can also save the recipe to a screen widget. Upon selecting a step, the user is presented 
-                    with more details about the steps and also video tutorials (if provided in the JSON file). 
+                <p class="short-detail">
+                    With the app, the user can: <br>
+                    - see a grid arrangement of movie posters upon launch <br>
+                    - change the sort order via a setting, by most popular or by highest-rated <br>
+                    - access additional details on a movie with a simple click (e.g. original title, screenshots)
+                    - play trailers <br>
+                    - read reviews of a selected movie <br>
+                    - mark a movie as a favorite in the details view by tapping the star button <br>
+                    - jump from one sorting criteria to the other and see their favorites collection
                 </p>
                 <h3 class="detail-header-h3">project requirements</h3>
                 <p class="short-detail"> 
@@ -70,47 +69,44 @@
                     - Android Nougat (API 25) <br>
                     - Latest Android SDK Tools (Android studio 3.0 canary) and build tools <br>
                 </p>
-
                 <h3 class="detail-header-h3">implementation</h3>
                 <p class="short-detail"> 
                     The project uses the following functionality features:<br>
-                   - Exoplayer to display videos <br>
-                   - Home screen widget<br>
-                   - Third-party library<br>
-                   - Fragments to create a responsive design that works on phones and tablets<br>
-                   - UI testing (JUnit 4 and Espresso)
+                    - <i>ContentProvider</i> to manage access to data (movie information) stored in the SQLite Database <br>
+                    - Third-party libraries (e.g. Sthetho, Picasso)<br>
+                    - Fragments to create a responsive design that works on phones and tablets <br>
                 </p>
-                <img src="../images/and-project-baking-app/and-project-baking-unit-test.jpg" class="thumb-proj-ux">
+                <img src="../images/and-project-popular-movies-app/and-project-popular-movies-code-sort-pref.jpg" class="thumb-proj-ux">
+                <hr class="detail-hr"> 
+                <img src="../images/and-project-popular-movies-app/and-project-popular-movies-code-content-prov.jpg" class="thumb-proj-ux">
 
                 <h3 class="detail-header-h3">Data persistance</h3>
                 <p class="short-detail"> 
-                    The android application makes a request of the recipe data from the network and saves the
+                    The Android application makes a request of the movie database from the network and saves the
                     data in the local storage as <i>SharedPreferences</i>. This data is then presented to the user 
                     in a <i>RecyclerView</i>. 
                 </p>
-                <img src="../images/and-project-baking-app/and-project-baking-fragment.jpg" class="thumb-proj-ux">
-
+                <img src="../images/and-project-popular-movies-app/and-project-popular-movies-code-shared-pref.jpg" class="thumb-proj-ux">
                 <h3 class="detail-header-h3">UI</h3>
                 <p class="short-detail"> 
                     The UI is using responsive design and material design guidelines, for phone and tablet screens.
                 </p>
                 <h3 class="detail-header-h3">screenshots</h3>
-                <p>The full project can be found <a href="https://github.com/sabinaioana25/MyCapstoneProject" target="_blank" class="external-link" >here</a></p>
+                <p>The full project can be found <a href="https://github.com/sabinaioana25/Cinematik" target="_blank" class="external-link" >here</a></p>
                 <div class="detail-image-flex-mockup-3">
-                    <img src="../images/and-project-baking-app/and-project-baking-main.jpg" />
-                    <img src="../images/and-project-baking-app/and-project-baking-ingredients.jpg" />
-                    <img src="../images/and-project-baking-app/and-project-baking-step.jpg" />         
-                    <img src="../images/and-project-baking-app/and-project-baking-video-tutorial.jpg" />         
-                    <img src="../images/and-project-baking-app/and-project-baking-screen-widget.jpg" />         
+                    <img src="../images/and-project-popular-movies-app/and-project-popular-movies-main-screen.jpg" />
+                    <img src="../images/and-project-popular-movies-app/and-project-popular-movies-detail-synopsis.jpg" />
+                    <img src="../images/and-project-popular-movies-app/and-project-popular-movies-detail-cast.jpg" />
+                             
                 </div>
             </div>
 
             <div class="footer-nav">
                 <a href="../home.html" class="home">back to projects</a>
                 <div>
-                    <a href="../html/201806-udacity-popular-movies.html" class="prev">prev</a>
+                    <a href="#" class="prev">prev</a>
                     <span>/</span>
-                    <a href="../html/201901-udacity-capstone-project.html" class="next">next</a>
+                    <a href="../html/201807-udacity-baking-project.html" class="next">next</a>
                 </div>
             </div>
         </main> 
