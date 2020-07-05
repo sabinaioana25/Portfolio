@@ -63,9 +63,17 @@
     max-width: 21.20rem;
     max-height: 37.63rem;
 }
+/* 
+#tablet-portrait-mode {
+    display: block;
+    width: 25rem;
+    height: 40rem;
+    margin: 0.75rem auto;
+} */
 
 /* footer social icons */
 .div-images {
     width: 2rem;
     height: 2rem;
 }
+
