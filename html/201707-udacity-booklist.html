@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Cinematik</title>
+        <title>Best Reads</title>
     </head>
     
     <body>
@@ -31,35 +31,33 @@
 
         <main class="detail-main">
             <div class="detail-header">
-                <p class="name">Cinematik</p>
+                <p class="name">Beast Reads</p>
                 <p class="short-detail-lang">Mobile / UX </p>
             </div>
             <div class="detail-wrapper">
                 <h3 class="detail-header-h3">intro</h3>
-                <p class="short-detail">This is the second project in Udacity's Android Developer Nanodegree. 
-                    The purpose of this project was to built an app to help users discover 
-                    popular and highly rated movies on the web. This app utilizes core Android user interface components 
-                    and fetches movie information from <i>themoviedb.org</i> web API.
+                <p class="short-detail">
+                    This project comes under Udacity's Android Basics Nanodegree Program.
+                    The goal was to design and create the structure of a Book Listing app which 
+                    would allow the user to get a list of published books on a given topic. The details on
+                    each book is taken from the <i>Google Books</i> api.
                 </p>
                 
                 <hr class="detail-hr"> 
                 <div class="project-technical-details">                
-                    <p><b>Objective:</b> build a clean UI, sync to a server and present information about movies</p>
-                    <p><b>Duration:</b> 2 weeks</p>
-                    <p><b>Tools used:</b> Android Studio, Adobe XD & Photoshop</p>
-                    <p>‍<b>Final product showcase:</b> an app that displays popular and recently launched movies</p>
+                    <p><b>Objective:</b> build a simple UI and display a list of books on any topic</p>
+                    <p><b>Duration:</b> 1 week</p>
+                    <p><b>Tools used:</b> Android Studio, Adobe XD </p>
+                    <p>‍<b>Final product showcase:</b> an app which would allow a user to get a list of published books on a given topic</p>
                 </div>
                 <hr class="detail-hr">
                 <h3 class="detail-header-h3">features</h3>
                 <p class="short-detail">
                     With the app, the user can: <br>
-                    - see a grid arrangement of movie posters upon launch <br>
-                    - change the sort order via a setting, by most popular or by highest-rated <br>
-                    - access additional details on a movie with a simple click (e.g. original title, screenshots)
-                    - play trailers <br>
+                    - search for books by name or title <br>
+                    - see a grid list of books <br>
+                    - access additional details on a book with a simple click (e.g. original title, launch year) <br>
                     - read reviews of a selected movie <br>
-                    - mark a movie as a favorite in the details view by tapping the star button <br>
-                    - jump from one sorting criteria to the other and see their favorites collection
                 </p>
                 <h3 class="detail-header-h3">project requirements</h3>
                 <p class="short-detail"> 
@@ -72,39 +70,42 @@
                 <h3 class="detail-header-h3">implementation</h3>
                 <p class="short-detail"> 
                     The project uses the following functionality features:<br>
-                    - <i>ContentProvider</i> to manage access to data (movie information) stored in the SQLite Database <br>
-                    - Third-party libraries (e.g. Sthetho, Picasso)<br>
-                    - Fragments to create a responsive design that works on phones and tablets <br>
+                    - fetch data from an API <br>
+                    - use an AsyncTask <br>
+                    - create a list based on that data and display it to the user <br>
+                    - use Fragments to display different lists, based on the user's preferences
                 </p>
-                <img src="../images/and-project-popular-movies-app/and-project-popular-movies-code-sort-pref.jpg" class="thumb-proj-ux">
+                <img src="../images/abnd-project-booklist-app/and-project-booklist-app-code-asynctaskjpg.JPG" class="thumb-proj-ux">
+                <hr class="detail-hr">
+                <img src="../images/abnd-project-booklist-app/and-project-booklist-app-code-fragment.jpg" class="thumb-proj-ux">
                 <hr class="detail-hr"> 
-                <img src="../images/and-project-popular-movies-app/and-project-popular-movies-code-content-prov.jpg" class="thumb-proj-ux">
+                <img src="../images/abnd-project-booklist-app/and-project-booklist-app-code-array-adapter.jpg" class="thumb-proj-ux">
 
-                <h3 class="detail-header-h3">Data persistance</h3>
+                <!-- <h3 class="detail-header-h3">Data persistance</h3>
                 <p class="short-detail"> 
                     The Android application makes a request of the movie database from the network and saves the
                     data in the local storage as <i>SharedPreferences</i>. This data is then presented to the user 
                     in a <i>RecyclerView</i>. 
                 </p>
-                <img src="../images/and-project-popular-movies-app/and-project-popular-movies-code-shared-pref.jpg" class="thumb-proj-ux">
+                <img src="../images/and-project-popular-movies-app/and-project-popular-movies-code-shared-pref.jpg" class="thumb-proj-ux"> -->
                 <h3 class="detail-header-h3">UI</h3>
                 <p class="short-detail"> 
-                    The UI is using responsive design and material design guidelines, for phone and tablet screens.
+                    The UI is using responsive design and material design guidelines, for phone screens.
                 </p>
                 <h3 class="detail-header-h3">screenshots</h3>
                 <p>The full project can be found <a href="https://github.com/sabinaioana25/Cinematik" target="_blank" class="external-link" >here</a></p>
                 <div class="detail-image-flex-mockup-3">
-                    <img src="../images/and-project-popular-movies-app/and-project-popular-movies-main-screen.jpg" />
-                    <img src="../images/and-project-popular-movies-app/and-project-popular-movies-detail-synopsis.jpg" />
-                    <img src="../images/and-project-popular-movies-app/and-project-popular-movies-detail-cast.jpg" />
-                             
+                    <img src="../images/abnd-project-booklist-app/abnd-project-booklist-main-activity-popular.jpg"/>
+                    <img src="../images/abnd-project-booklist-app/abnd-project-booklist-main-activity-search.jpg"/>
+                    <img src="../images/abnd-project-booklist-app/abnd-project-booklist-detail-activity.jpg"/>
+                                             
                 </div>
             </div>
 
             <div class="footer-nav">
                 <a href="../home.html" class="home">back to projects</a>
                 <div>
-                    <a href="../html/201707-udacity-booklist.html" class="prev">prev</a>
+                    <a href="#" class="prev">prev</a>
                     <span>/</span>
                     <a href="../html/201807-udacity-baking-project.html" class="next">next</a>
                 </div>
