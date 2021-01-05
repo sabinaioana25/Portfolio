@@ -271,13 +271,13 @@
     }
 
     /* about me page content */
-    /* .about-main {
+    .about-main {
         grid-area: main;
     }
 
     .short-about {
         margin: 0;
-    } */
+    }
 
     /* footer section */
     .group-ic {
@@ -424,6 +424,11 @@
         max-width: 14.34rem;
         max-height: 29.38rem;
         margin: 0 0 1rem;
+    }
+
+    /* about me page content */
+    .about-main {
+        grid-area: main;
     }
 
     /* footer section */
