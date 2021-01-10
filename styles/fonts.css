@@ -13,21 +13,26 @@
 
 /* main landing page */ 
 .name { 
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bold;
-    line-height: 1.6rem;
+    line-height: 1.7;
     text-transform: capitalize;
+    text-align: justify;   
 }
 
 .short {
-    font-size: 0.9rem;
-    line-height: 1.5rem;
+    font-size: 0.8rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+
 }
 
 .link {
-    font-size: 0.9rem;
-    line-height: 1.5rem;
+    font-size: 0.8rem;
+    font-style: italic;
+    line-height: 1.6;
     color: blue;
+    margin-top: 1rem;
 }
 
 .link:hover {
@@ -90,13 +95,16 @@
 }
 
 /* about section */
-.button-wrapper a {
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 0.3rem;
-    font-weight: 500;
-    color: #000;
+a.button-resume {
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+
 }
+
 
 /* footer section */
 .footer-h2 {
@@ -107,6 +115,6 @@
 }
 
 .footer-paragraph {
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-align: center;
 }

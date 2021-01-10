@@ -63,7 +63,7 @@
     
     .name {
         grid-area: name;
-        font-size: 1.1rem;
+        font-size: 1.5rem;
     }
     
     .short {
@@ -71,6 +71,8 @@
         height: fit-content;
         margin-top: 0.2rem;
         font-size: 1rem;
+        text-align: justify;
+
     }
 
    .link {
@@ -200,7 +202,7 @@
 
     .name {
         grid-area: name;      
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     
     .short {
@@ -331,7 +333,7 @@
     .menu li {
         margin-left: 1rem;
         margin-right: 0;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     /* main page content  */
@@ -354,7 +356,7 @@
     }
     .name {
         grid-area: name;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     
     .short {
