@@ -24,19 +24,16 @@
     font-size: 0.8rem;
     line-height: 1.6;
     margin-top: 1rem;
-
 }
 
 .link {
     font-size: 0.8rem;
-    font-style: italic;
     line-height: 1.6;
-    color: blue;
     margin-top: 1rem;
 }
 
-.link:hover {
-    opacity: 40%;
+.name:hover {
+    opacity: 0.3;
 }
 
 /* detail section */
@@ -102,7 +99,6 @@ a.button-resume {
     color:#FFFFFF;
     background-color:rgb(233, 67, 233);
     text-align:center;
-
 }
 
 
