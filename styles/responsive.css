@@ -127,6 +127,13 @@
         max-height: 29.38rem;
         margin: 0;
     }
+
+    /* about me page */
+    button::-moz-focus-inner {
+        border:0;
+        padding:0;
+    }
+
     /* footer section */
     .group-ic {
         width: 35%;
@@ -275,6 +282,11 @@
     /* about me page content */
     .about-main {
         grid-area: main;
+    }
+
+    button::-moz-focus-inner {
+        border:0;
+        padding:0;
     }
 
     .short-about {
@@ -431,6 +443,11 @@
     /* about me page content */
     .about-main {
         grid-area: main;
+    }
+
+    button::-moz-focus-inner {
+        border:0;
+        padding:0;
     }
 
     /* footer section */

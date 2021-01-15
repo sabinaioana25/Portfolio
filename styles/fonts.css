@@ -74,7 +74,15 @@
 }
 
 .external-link {
-    color: blue;
+    color: white;
+    background-color: grey;
+    padding: 0.5rem;
+    border-radius: 0.5rem
+}
+
+.external-link-social {
+    padding: 0.5rem;
+    border-radius: 0.5rem
 }
 
 .external-link:hover {

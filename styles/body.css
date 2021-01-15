@@ -122,18 +122,17 @@ html {
 }
 
 a.button-resume {
-    display: flex;
-    padding:0.3em 1.2em;
+    display: table;
+    padding: 0.3em 1.2em;
+    text-align: enter;
     width: fit-content;
-    margin: auto;
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+    margin: 1rem auto;
     border-radius: 2em;
     box-sizing: border-box;
     align-items: center;
-    align-content: center;
+    align-self: center;   
 }
     
-    a.button-resume:hover{
+a.button-resume:hover{
     background-color:#ec75dc;
 }
