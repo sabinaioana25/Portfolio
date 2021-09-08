@@ -38,6 +38,10 @@
     -webkit-border-radius: 4px;
 }
 
+.thumb-project :hover{
+    opacity: 0.4;
+}
+
 .detail-wrapper > img {
     width: 100%;
     height: auto;
