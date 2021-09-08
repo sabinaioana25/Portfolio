@@ -32,9 +32,9 @@
     margin-top: 1rem;
 }
 
-.name:hover {
-    opacity: 0.3;
-}
+/* .name:hover { */
+    /* opacity: 0.3; */
+/* } */
 
 /* detail section */
 .detail-header .name {
