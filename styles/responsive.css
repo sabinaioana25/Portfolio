@@ -1,6 +1,7 @@
 /* tablet - portrait */
 @media screen and (max-width: 36.25rem)  {
     /* body css  */
+    
 }
 
 @media screen and (min-width: 36.25rem) and (max-width: 49.8rem) {
@@ -50,7 +51,10 @@
     .thumb-project > img {
         border-radius: 0;
     }
-    
+    .thumb-project :hover{
+        opacity: 0.3;
+        transition: 0.5s ease
+    }
     .thumb-project-details {
         /* display: grid; */
         width: auto;
@@ -196,6 +200,11 @@
 
     .thumb-project > img {
         border-radius: 0;
+    }
+
+    .thumb-project :hover{
+        opacity: 0.3;
+        transition: 0.5s ease
     }
  
     .thumb-project-details {
@@ -365,6 +374,10 @@
     .thumb-project > img {
         border-radius: 0;
 
+    }
+    .thumb-project :hover{
+        opacity: 0.3;
+        transition: 0.5s ease
     }
     .name {
         grid-area: name;
