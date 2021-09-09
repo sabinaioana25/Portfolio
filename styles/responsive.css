@@ -1,7 +1,15 @@
 /* tablet - portrait */
 @media screen and (max-width: 36.25rem)  {
     /* body css  */
-    
+
+    .detail-header .name {
+        text-align: center;
+    } 
+
+    .div-link-to-project >p{        
+        overflow: hidden;
+        /* text-overflow: ellipsis; */
+    }
 }
 
 @media screen and (min-width: 36.25rem) and (max-width: 49.8rem) {
@@ -51,10 +59,12 @@
     .thumb-project > img {
         border-radius: 0;
     }
+    
     .thumb-project :hover{
-        opacity: 0.3;
-        transition: 0.5s ease
+    opacity: 0.3;
+    transition: 0.5s ease
     }
+
     .thumb-project-details {
         /* display: grid; */
         width: auto;
@@ -79,16 +89,11 @@
 
     }
 
-   /* .link {
-        grid-area: link;
-        justify-content: flex-start;
-        font-size: 1rem;
-    } */
-
     /* detail page content */
     .detail-header {
         text-align: left;
     }
+
 
     .detail-header-h3 {
         font-size: 1.1rem; 
@@ -208,12 +213,7 @@
     }
  
     .thumb-project-details {
-        /* display: grid; */
         width: auto;
-        /* grid-template-columns: 40% 60%; */
-        /* grid-template-areas: 
-        "name short"
-        " . link"; */
     }
 
     .name {
@@ -223,7 +223,6 @@
     
     .short {
         grid-area: short;
-        /* margin-top: 0.2rem;        */
         font-size: 1rem;
     }
 
@@ -363,18 +362,13 @@
     }
 
     .thumb-project-details {
-        /* display: grid; */
         width: auto;
-        /* grid-template-columns: 40% 60%;
-        grid-template-areas: 
-        "name short"
-        " . link"; */
     }
  
     .thumb-project > img {
         border-radius: 0;
-
     }
+
     .thumb-project :hover{
         opacity: 0.3;
         transition: 0.5s ease
@@ -387,7 +381,6 @@
     .short {
         grid-area: short;
         height: fit-content;
-        /* margin-top: 0.2rem; */
         font-size: 1rem;
     }
 
