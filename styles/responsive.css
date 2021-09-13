@@ -6,9 +6,12 @@
         text-align: center;
     } 
 
-    .div-link-to-project >p{        
+    .div-link-to-project{        
         overflow: hidden;
-        /* text-overflow: ellipsis; */
+        display: inline-block
+    }
+    .detail-header-h3 {
+        font-size: 1rem; 
     }
 }
 
@@ -87,6 +90,15 @@
         font-size: 1rem;
         text-align: justify;
 
+    }  
+    
+    .div-link-to-project {
+        display: inline-block; 
+        justify-content: space-evenly;
+        /* display:inline-flex; 
+        justify-content:space-evenly; */
+        overflow: hidden;
+        /* text-overflow: ellipsis; */
     }
 
     /* detail page content */
@@ -259,7 +271,13 @@
         flex-direction: row;
         margin: 0;
         justify-content: space-evenly;
-    }   
+    }  
+    
+    .div-link-to-project {
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-between;
+    }
     
     .detail-image-flex-mockup-9 {
         display: grid;
@@ -402,6 +420,12 @@
     
     .detail-header-h3 {
         font-size: 1.1rem; 
+    }
+
+    .div-link-to-project {
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .detail-wrapper > p {
