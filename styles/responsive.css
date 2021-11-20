@@ -100,6 +100,15 @@
         align-items: center;
     }
 
+    .div-link-to-project-blends {
+        display: flex;
+        justify-content: flex-start;     
+    }
+
+    .link-to-projects-blends {
+        margin-right: 2rem;
+    }
+
     /* detail page content */
     .detail-header {
         text-align: left;
@@ -278,6 +287,15 @@
         justify-content: space-between;
         align-items: center; 
     }
+
+    .div-link-to-project-blends {
+        display: flex;
+        justify-content: flex-start;     
+    }
+
+    .link-to-projects-blends {
+        margin-right: 2rem;
+    }
     
     .detail-image-flex-mockup-9 {
         display: grid;
@@ -424,8 +442,18 @@
 
     .div-link-to-project {
         display: flex; 
-        flex-direction: row;
+        flex-direction: row;   
+        flex: auto;     
         justify-content: space-between;
+    }
+
+    .div-link-to-project-blends {
+        display: flex;
+        justify-content: flex-start;     
+    }
+
+    .link-to-projects-blends {
+        margin-right: 2rem;
     }
 
     .detail-wrapper > p {

@@ -67,7 +67,7 @@ html {
     margin-top: 1rem;
 }
 
- .detail-flexbox {
+.detail-flexbox {
     display: flex;
     flex-direction: column;
     margin: 0;
