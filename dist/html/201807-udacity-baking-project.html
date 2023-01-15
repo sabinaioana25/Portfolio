@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html id="top">
+    <head>
+        <link rel="stylesheet" type="text/css" href="../styles/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Baking App</title>
+    </head>
+    
+    <body>
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fa fa-bars"></i>
+            </span>
+
+            <a href="../home.html" class="logo-image"></a>
+            <ul class="menu"> 
+                <hr>
+                <li>
+                    <a href="../home.html" class="nav-links">Projects</a></li>
+                <hr>
+                <li>
+                    <a href="https://github.com/sabinaioana25?tab=repositories" class="nav-links">Github</a></li>
+                <hr>
+                <li>
+                    <a href="http://sabinaleitoiu.tumblr.com/" class="nav-links">Photography</a></li>
+                <hr>
+                <li>
+                    <a href="../about.html" class="nav-links">About</a></li>
+                <hr>
+            </ul> 
+        </nav>
+
+        <main class="detail-main">
+            <div class="detail-header">
+                <p class="name">Baking App</p>
+                <p class="short-detail-lang">Mobile / UX </p>
+            </div>
+            <div class="detail-wrapper">
+                <h3 class="detail-header-h3">intro</h3>
+                <p class="short-detail">This project comes under Udacity's Android Development Nanodegree. 
+                    The scope of the project is to design and plan the steps necessary to create a production-ready application. 
+                    The recipe instructions, ingredients, videos and images are provided by Udacity.
+                </p>
+                <p class="link-to-projects"><a href="https://github.com/sabinaioana25/BakingApp" target="_blank" class="external-link" >Baking App - Github Project</a></p>
+
+                <hr class="detail-hr"> 
+                <div class="project-technical-details">                
+                    <p><b>Objective:</b> build an app in two stages (design & plan, code build)</p>
+                    <p><b>Duration:</b> 2 weeks</p>
+                    <p><b>Tools used:</b> Android Studio, Adobe XD & Photoshop</p>
+                    <p>‍<b>Final product showcase:</b> An app to view video recipes and access recipes quckly through a widget</p>
+                </div>
+                <br>
+                <!-- <hr class="detail-hr"> -->
+                <img src="../images/and-project-baking-app/and-project-baking-tablet-land.jpg" class="thumb-proj-ux">
+                <h3 class="detail-header-h3" id="problem">description</h3>
+                <p class="short-detail">
+                    My task was to create a Android Baking App that will allow Udacity’s resident baker-in-chief, Miriam, 
+                    to share her cake recipes. The app allows the user to select a recipe and 
+                    see video-guided steps on how to make a dessert.
+                </p>
+                <h3 class="detail-header-h3">features</h3>
+                <p class="short-detail"> The user can open a detailed recipe by clicking on a dessert card and can jump to another 
+                    recipe from whithin the detail screen.
+                <br>
+                More details about the recipe are available in the detail screen.    
+                </p>
+                <h3 class="detail-header-h3">project requirements</h3>
+                <p class="short-detail"> 
+                    - Project is written only in Java<br>
+                    - JDK 1.8 <br>
+                    - Android SDK <br>
+                    - Android Nougat (API 25) <br>
+                    - Latest Android SDK Tools (Android studio 3.0 canary) and build tools <br>
+                </p>
+
+                <h3 class="detail-header-h3">implementation</h3>
+                <p class="short-detail"> 
+                    The project uses the following features:<br>
+                   - Exoplayer to display videos <br>
+                   - Home screen widget<br>
+                   - Third-party library<br>
+                   - Fragments to create a responsive design that works on phones and tablets<br>
+                   - UI testing (JUnit 4 and Espresso)
+                </p>
+                <img src="../images/and-project-baking-app/and-project-baking-unit-test.jpg" class="thumb-proj-ux">
+
+                <h3 class="detail-header-h3">Data persistance</h3>
+                <p class="short-detail"> 
+                    The app makes a request of the recipe data from the network and saves the
+                    data in the local storage as <i>SharedPreferences</i>. This data is then presented to the user 
+                    in a <i>RecyclerView</i>. 
+                </p>
+                <img src="../images/and-project-baking-app/and-project-baking-fragment.jpg" class="thumb-proj-ux">
+
+                <h3 class="detail-header-h3">UI</h3>
+                <p class="short-detail"> 
+                    The UI is crafted following responsive and material design guidelines for phone and tablet screens.
+                </p>
+                <h3 class="detail-header-h3">screenshots</h3>
+                <div class="detail-image-flex-mockup-3">
+                    <img src="../images/and-project-baking-app/and-project-baking-main.jpg" />
+                    <img src="../images/and-project-baking-app/and-project-baking-ingredients.jpg" />
+                    <img src="../images/and-project-baking-app/and-project-baking-step.jpg" />         
+                    <img src="../images/and-project-baking-app/and-project-baking-video-tutorial.jpg" />         
+                    <img src="../images/and-project-baking-app/and-project-baking-screen-widget.jpg" />         
+                </div>
+            </div>
+
+            <div class="footer-nav">
+                <a href="../home.html" class="home">back to projects</a>
+                <div>
+                    <a href="../html/201901-udacity-capstone-project.html" class="prev">prev</a>
+                    <span>/</span>
+                    <a href="../html/201806-udacity-popular-movies.html" class="next">next</a>
+                </div>
+            </div>
+        </main> 
+
+        <footer>
+            <hr class="divider">
+            <div>
+                <h2 class="footer-h2">Where to find me...</h2>
+                <p class="footer-paragraph">Feel free to reach out for collaboration or just a friendly hello 😀</p>      
+            </div>
+
+            <div class="group-ic">
+                <a href="https://www.linkedin.com/in/sableitoiu/" target="_blank" class="external-link-social"><img src="../icons/linkedin.svg" class="div-images" /></a>
+                <a href="https://github.com/sabinaioana25" target="_blank" class="external-link-social"><img src="../icons/github.svg" class="div-images"</a>
+                <a href="mailto:sabinaleitoiu91@gmail.com" target="_blank" class="external-link-social"><img src="../icons/gmail.svg" class="div-images" /></a>
+                <a href="https://www.instagram.com/splusl91/" target="_blank" class="external-link-social"><img src="../icons/instagram.svg" class="div-images" /></a>
+            </div>
+
+        </footer> 
+    </body>
+    <script src="../js/main.js"></script>
+</html>

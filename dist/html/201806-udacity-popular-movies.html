@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html id="top">
+    <head>
+        <link rel="stylesheet" type="text/css" href="../styles/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cinematik</title>
+    </head>
+    
+    <body>
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fa fa-bars"></i>
+            </span>
+
+            <a href="../home.html" class="logo-image"></a>
+            <ul class="menu"> 
+                <hr>
+                <li>
+                    <a href="../home.html" class="nav-links">Projects</a></li>
+                <hr>
+                <li>
+                    <a href="https://github.com/sabinaioana25?tab=repositories" class="nav-links">Github</a></li>
+                <hr>
+                <li>
+                    <a href="http://sabinaleitoiu.tumblr.com/" class="nav-links">Photography</a></li>
+                <hr>
+                <li>
+                    <a href="../about.html" class="nav-links">About</a></li>
+                <hr>
+            </ul> 
+        </nav>
+
+        <main class="detail-main">
+            <div class="detail-header">
+                <p class="name">Cinematik</p>
+                <p class="short-detail-lang">Mobile / UX </p>
+            </div>
+            <div class="detail-wrapper">
+                <h3 class="detail-header-h3">intro</h3>
+                <p class="short-detail">This is the second project in Udacity's Android Developer Nanodegree. 
+                    The purpose of this project was to built an app to help users discover 
+                    popular and highly rated movies. This app utilizes core Android user interface components 
+                    and fetches movie information from <i>themoviedb.org</i> web API.
+                </p>
+                <p class="link-to-projects"><a href="https://github.com/sabinaioana25/Cinematik" target="_blank" class="external-link" >Cinematik - Github Project</a></p>
+                <hr class="detail-hr"> 
+                <div class="project-technical-details">                
+                    <p><b>Objective:</b> Build a clean UI, sync to a server and present information about movies</p>
+                    <p><b>Duration:</b> 2 weeks</p>
+                    <p><b>Tools used:</b> Android Studio, Adobe XD & Photoshop</p>
+                    <p>‍<b>Final product showcase:</b> An app that displays popular and recently launched movies</p>
+                </div>
+                <br>
+                <!-- <hr class="detail-hr"> -->
+                <img src="../images/project-thumbnails/thumb-project-movie-app.jpg" class="thumb-proj-ux">
+                <h3 class="detail-header-h3">features</h3>
+                <p class="short-detail">
+                    With the app, the user can: <br>
+                    - see a grid arrangement of movie posters upon launch <br>
+                    - change the sort order by most popular or by highest-rated <br>
+                    - access additional details on a movie with a simple click (e.g. original title, screenshots) <br>
+                    - play trailers <br>
+                    - read reviews of a selected movie <br>
+                    - add movies to a favorites list in the details view by tapping the star button <br>
+                    - change the sorting criteria to the 'favorites' list
+                </p>
+                <h3 class="detail-header-h3">project requirements</h3>
+                <p class="short-detail"> 
+                    - Project is written in Java<br>
+                    - JDK 1.8 <br>
+                    - Android SDK <br>
+                    - Android Nougat (API 25) <br>
+                    - Latest Android SDK Tools (Android Studio 3.0 Canary) and build tools <br>
+                </p>
+                <h3 class="detail-header-h3">implementation</h3>
+                <p class="short-detail"> 
+                    The project uses the following functionality features:<br>
+                    - <i>ContentProvider</i> to manage access to data (movie information) stored in the <i>SQLite Database</i> <br>
+                    - Third-party libraries (e.g. Sthetho, Picasso)<br>
+                    - Fragments to create a responsive design that works on phones and tablets <br>
+                </p>
+                <img src="../images/and-project-popular-movies-app/and-project-popular-movies-code-sort-pref.jpg" class="thumb-proj-ux">
+                <hr class="detail-hr"> 
+                <img src="../images/and-project-popular-movies-app/and-project-popular-movies-code-content-prov.jpg" class="thumb-proj-ux">
+
+                <h3 class="detail-header-h3">Data persistance</h3>
+                <p class="short-detail"> 
+                    The Android application makes a request of the movie database from the network and saves the
+                    data in the local storage as <i>SharedPreferences</i>. This data is then presented to the user 
+                    in a <i>RecyclerView</i>. 
+                </p>
+                <img src="../images/and-project-popular-movies-app/and-project-popular-movies-code-shared-pref.jpg" class="thumb-proj-ux">
+                <h3 class="detail-header-h3">UI</h3>
+                <p class="short-detail"> 
+                    The UI is made following responsive design and material design guidelines, for phone and tablet screens.
+                </p>
+                <h3 class="detail-header-h3">screenshots</h3>
+                <div class="detail-image-flex-mockup-3">
+                    <img src="../images/and-project-popular-movies-app/and-project-popular-movies-main-screen.jpg" />
+                    <img src="../images/and-project-popular-movies-app/and-project-popular-movies-detail-synopsis.jpg" />
+                    <img src="../images/and-project-popular-movies-app/and-project-popular-movies-detail-cast.jpg" />
+                             
+                </div>
+            </div>
+
+            <div class="footer-nav">
+                <a href="../home.html" class="home">back to projects</a>
+                <div>                
+                    <a href="../html/201807-udacity-baking-project.html" class="prev">prev</a>
+                    <span>/</span>
+                    <a href="../html/201707-udacity-booklist.html" class="next">next</a>
+                </div>
+            </div>
+        </main> 
+
+        <footer>
+            <hr class="divider">
+            <div>
+                <h2 class="footer-h2">Where to find me...</h2>
+                <p class="footer-paragraph">Feel free to reach out for collaboration or just a friendly hello 😀</p>      
+            </div>
+
+            <div class="group-ic">
+                <a href="https://www.linkedin.com/in/sableitoiu/" target="_blank" class="external-link-social"><img src="../icons/linkedin.svg" class="div-images" /></a>
+                <a href="https://github.com/sabinaioana25" target="_blank" class="external-link-social"><img src="../icons/github.svg" class="div-images"</a>
+                <a href="mailto:sabinaleitoiu91@gmail.com" target="_blank" class="external-link-social"><img src="../icons/gmail.svg" class="div-images" /></a>
+                <a href="https://www.instagram.com/splusl91/" target="_blank" class="external-link-social"><img src="../icons/instagram.svg" class="div-images" /></a>
+            </div>
+
+        </footer> 
+    </body>
+    <script src="../js/main.js"></script>
+</html>

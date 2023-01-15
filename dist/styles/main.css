@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Prociono&family=Libre+Franklin:wght@100;200;300;400&family=Montserrat:wght@400;700&family=PT+Serif:wght@400;700&family=Raleway:wght@400;700&family=PT+Sans+Narrow&display=swap');
+@import "reset.css";
+@import "normalize.css";
+@import "components.css";
+@import "header.css";
+@import "body.css";
+@import "images.css";
+@import "footer.css";
+@import "fonts.css"; 
+@import "responsive.css";

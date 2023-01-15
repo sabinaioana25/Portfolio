@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'libre franklin', sans-serif;
+    /* font-weight: 300; */
+    line-height: 1.6rem;
+    letter-spacing: 0.5px;
+}   
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+li {
+    text-decoration: none;
+}

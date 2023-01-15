@@ -1,0 +1,515 @@
+/* tablet - portrait */
+@media screen and (max-width: 36.25rem)  {
+    /* body css  */
+
+    .detail-header .name {
+        text-align: center;
+    } 
+
+    .div-link-to-project {     
+        display: inline-block; 
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .detail-header-h3 {
+        font-size: 1rem; 
+    }
+}
+
+@media screen and (min-width: 36.25rem) and (max-width: 49.8rem) {
+    /* header */
+    .navbar {
+        grid-area: nav;
+        display: flex;
+        flex-direction: row;
+        padding: 1rem;
+        justify-content: space-between;
+    }
+
+    .navbar a {
+        margin-left: 0;
+    }
+
+    .navbar-toggle, .menu hr {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+        right: 1rem;
+        margin-top: 1.2rem;
+        padding: 0;
+    }
+    
+    .menu li {
+        margin-left: 1rem;
+        margin-right: 0;
+    }
+
+    .logo-image {
+        width: 2rem;
+        height: 3rem;
+        margin: 0;
+        margin: 0.8rem 0 0 0;
+    }
+
+    .fa-bars {
+        margin-top: 1rem;
+    }
+
+    /* main page content */
+    .thumb-project > img {
+        border-radius: 0;
+    }
+    
+    .thumb-project :hover{
+    opacity: 0.3;
+    transition: 0.5s ease
+    }
+
+    .thumb-project-details {
+        /* display: grid; */
+        width: auto;
+        height: fit-content;
+        /* grid-template-columns: 40% 60%; */
+        /* grid-template-areas: 
+        "name short"
+        " . link"; */
+    }
+    
+    .name {
+        /* grid-area: name; */
+        font-size: 1.5rem;
+    }
+    
+    .short {
+        grid-area: short;
+        height: fit-content;
+        /* margin-top: 0.2rem; */
+        font-size: 1rem;
+        text-align: justify;
+
+    }  
+    
+    .div-link-to-project {
+        display: inline-block; 
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .div-link-to-project-blends {
+        display: flex;
+        justify-content: flex-start;     
+    }
+
+    .link-to-projects-blends {
+        margin-right: 2rem;
+    }
+
+    /* detail page content */
+    .detail-header {
+        text-align: left;
+    }
+
+
+    .detail-header-h3 {
+        font-size: 1.1rem; 
+    }
+
+    .detail-wrapper > p {
+        font-size: 1rem;
+    }
+
+    .project-technical-details > p {
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+
+    .detail-image-flex-mockup-9 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5,1fr);
+        padding: 0 4rem;
+        gap: 1rem;
+    }
+    
+    .detail-image-flex-mockup-9 > img {
+        justify-self: center;
+        max-width: 14.34rem;
+        max-height: 29.38rem;
+        margin: 0;
+    }
+
+    .detail-image-flex-mockup-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 4rem;
+        gap: 1rem;
+    }
+    
+    .detail-image-flex-mockup-3 > img {
+        justify-self: center;
+        max-width: 14.34rem;
+        max-height: 29.38rem;
+        margin: 0;
+    }
+
+    /* about me page */
+    button::-moz-focus-inner {
+        border:0;
+        padding:0;
+    }
+
+    /* footer section */
+    .group-ic {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 49.8rem) and (max-width: 67.4rem) {
+    body {
+        display: grid;
+        width: 100vw;
+        height: auto;
+        grid-gap: 0;
+        grid-template-columns: 1fr 49.8rem 1fr;
+        grid-template-areas: 
+        " . nav . "
+        " . main . "
+        "footer footer footer";
+    }
+
+    /* header */
+    .navbar {
+        grid-area: nav;
+        display: flex;
+        flex-direction: row;        
+        padding: 1rem 0 1rem  1rem;
+        justify-content: space-between;
+    }
+
+    .navbar-toggle, .menu hr {
+        display: none;
+    } 
+
+    .logo-image {
+        width: 2rem;
+        height: 3rem;
+        margin: 0.8rem 0 0 0;
+    }
+
+    .menu {
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+        margin-top: 1.2rem;
+        margin-right: 1rem;
+        padding-right: 0;
+    }
+
+    .menu li {
+        margin-left: 1rem;
+        margin-right: 0;
+    }
+
+    /* main page content */
+    .flexbox-thumb {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .thumb-project > img {
+        border-radius: 0;
+    }
+
+    .thumb-project :hover{
+        opacity: 0.3;
+        transition: 0.5s ease
+    }
+ 
+    .thumb-project-details {
+        width: auto;
+    }
+
+    .name {
+        grid-area: name;      
+        font-size: 1.5rem;
+    }
+    
+    .short {
+        grid-area: short;
+        font-size: 1rem;
+    }
+
+    .link {
+        grid-area: link;
+        justify-content: flex-start;
+        font-size: 1rem;
+    }
+
+    /* detail page content */
+     .detail-main {
+        grid-area: main;
+    }
+
+    .detail-header {
+        text-align: left;
+    }
+
+    .detail-header-h3 {
+        font-size: 1.1rem; 
+    }
+
+    .detail-wrapper > p {
+        font-size: 1rem;
+    }
+
+    .project-technical-details > p {
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+    
+    .detail-flexbox {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        justify-content: space-evenly;
+    }  
+    
+    .div-link-to-project {
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; 
+    }
+
+    .div-link-to-project-blends {
+        display: flex;
+        justify-content: flex-start;     
+    }
+
+    .link-to-projects-blends {
+        margin-right: 2rem;
+    }
+    
+    .detail-image-flex-mockup-9 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3,1fr);
+    }
+    
+    .detail-image-flex-mockup-9 > img {
+        justify-self: center;
+        max-width: 14.34rem;
+        max-height: 29.38rem;
+        margin: 0 0 1rem;
+    }
+
+    .detail-image-flex-mockup-3 {
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+    .detail-image-flex-mockup-3 > img {
+        justify-self: center;
+        max-width: 14.34rem;
+        max-height: 29.38rem;
+        margin: 0 0 1rem;
+    }
+
+    /* about me page content */
+    .about-main {
+        grid-area: main;
+    }
+
+    button::-moz-focus-inner {
+        border:0;
+        padding:0;
+    }
+
+    .short-about {
+        margin: 0;
+    }
+
+    /* footer section */
+    .group-ic {
+       width: 33%;
+    }
+}
+
+@media screen and (min-width: 67.4rem) {
+    /* header */
+    body {
+        display: grid;
+        width: 100vw;
+        height: auto;
+        margin: 0;
+        grid-gap: 0;
+        grid-template-columns: 1fr 49.8rem 1fr;
+        grid-template-areas: 
+        " . nav . "
+        " . main . "
+        " footer footer footer ";
+    }
+
+     .navbar {
+        grid-area: nav;
+        display: flex;
+        flex-direction: row;
+        padding: 1rem 0 1rem 0;
+        justify-content: space-between;
+    }
+
+    .navbar-toggle, .menu hr {
+        display: none;
+    }
+
+    .logo-image {
+        width: 2rem;
+        height: 3rem;
+        margin: 0.8rem 0 0 1rem;
+    }
+
+    .menu {
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+        margin-top: 1.2rem;
+        margin-right: 1rem;
+        right: 1rem;
+        padding-right: 0;
+    }
+
+    .menu li {
+        margin-left: 1rem;
+        margin-right: 0;
+        font-size: 1rem;
+    }
+
+    /* main page content  */
+    .intro-header h1 {
+       width: 100%;
+    }
+
+    .thumb-project-details {
+        width: auto;
+    }
+ 
+    .thumb-project > img {
+        border-radius: 0;
+    }
+
+    .thumb-project :hover{
+        opacity: 0.3;
+        transition: 0.5s ease
+    }
+    .name {
+        grid-area: name;
+        font-size: 1.5rem;
+    }
+    
+    .short {
+        grid-area: short;
+        height: fit-content;
+        font-size: 1rem;
+    }
+
+    .link {
+        grid-area: link;
+        justify-content: flex-start;
+        font-size: 1rem;
+    } 
+
+    /* detail page content */
+     .detail-main {
+        grid-area: main;
+        margin: 0;
+    }
+
+    .detail-header {
+        text-align: left;
+    }
+    
+    .detail-header-h3 {
+        font-size: 1.1rem; 
+    }
+
+    .div-link-to-project {
+        display: flex; 
+        flex-direction: row;   
+        flex: auto;     
+        justify-content: space-between;
+    }
+
+    .div-link-to-project-blends {
+        display: flex;
+        justify-content: flex-start;     
+    }
+
+    .link-to-projects-blends {
+        margin-right: 2rem;
+    }
+
+    .detail-wrapper > p {
+        font-size: 1rem;
+    }
+
+    .project-technical-details > p {
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+
+    .detail-flexbox {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        justify-content: space-evenly;
+    }  
+
+    .detail-image-flex-mockup-9 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3,1fr);
+    }
+    
+    .detail-image-flex-mockup-9 > img {
+        justify-self: center;
+        max-width: 14.34rem;
+        max-height: 29.38rem;
+        margin: 0 0 1rem;
+    }
+
+    .detail-image-flex-mockup-3 {
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .detail-image-flex-mockup-3  > img {
+        justify-self: center;
+        max-width: 14.34rem;
+        max-height: 29.38rem;
+        margin: 0 0 1rem;
+    }
+
+    /* about me page content */
+    .about-main {
+        grid-area: main;
+    }
+
+    button::-moz-focus-inner {
+        border:0;
+        padding:0;
+    }
+
+    /* footer section */
+    .group-ic {
+        width: 31%;
+    }
+}

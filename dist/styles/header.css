@@ -1,0 +1,53 @@
+.navbar {
+    /* margin-bottom: 0; */
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.menu {
+    display: none;
+}
+
+.menu li {
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.menu li:hover {
+    opacity: 40%;
+}
+
+/* toggle button */
+.fa-bars {
+    -webkit-text-stroke: 2.5px white;
+    color: #293241;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    cursor: pointer;
+    margin: 0;
+    padding-top: 1.2rem;
+    font-size: 1rem;
+}
+
+/* navbar menu active */
+.active {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: #F3F3F3;
+    margin-top: 0.2rem;
+}

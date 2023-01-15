@@ -1,0 +1,38 @@
+footer {
+    grid-area: footer;
+    overflow: hidden;
+}
+
+footer hr {
+    width: auto;
+    height: 1px;
+    margin-bottom: 0;
+    border: none;
+    background-color: #F3F3F3;
+    overflow: hidden;
+}
+
+.footer-h2 {
+    width: fit-content;
+    margin: 1rem auto;
+}
+
+.footer-paragraph {
+    width: 50%;
+    margin: 0 auto 1.5rem auto;
+} 
+
+.group-ic {
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-evenly;
+    margin: 0 auto 1.5rem auto;
+}
+
+.div-images:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
